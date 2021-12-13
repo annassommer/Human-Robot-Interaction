@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 320b1c2af77554f99a1658df4a6d3d5c
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       43: 4300000
@@ -57,6 +57,7 @@ ModelImporter:
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -66,6 +67,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
@@ -514,7 +518,7 @@ ModelImporter:
     - name: Left_Wrist_Joint_01
       parentName: Left_Forearm_Joint_01
       position: {x: -0.17692582, y: -0.24830171, z: 0.04193508}
-      rotation: {x: -0.0027681103, y: 0.008098039, z: 0.4626801, w: 0.88648397}
+      rotation: {x: -0.0027681105, y: 0.00809804, z: 0.46268013, w: 0.886484}
       scale: {x: 1, y: 1, z: 1}
     - name: Left_Index_Finger_Joint_01a
       parentName: Left_Wrist_Joint_01
@@ -539,7 +543,7 @@ ModelImporter:
     - name: Left_Middle_Finger_Joint_01b
       parentName: Left_Middle_Finger_Joint_01a
       position: {x: -0.044052828, y: 2.220446e-18, z: 1.3147821e-18}
-      rotation: {x: 0.00064981356, y: 0.00044095775, z: 0.010304518, w: 0.9999466}
+      rotation: {x: 0.0006498136, y: 0.00044095775, z: 0.010304519, w: 0.9999466}
       scale: {x: 1, y: 1, z: 1}
     - name: Left_Middle_Finger_Joint_01c
       parentName: Left_Middle_Finger_Joint_01b
@@ -564,7 +568,7 @@ ModelImporter:
     - name: Left_Pinky_Finger_Joint_01a
       parentName: Left_Wrist_Joint_01
       position: {x: -0.07212005, y: 0.012475326, z: -0.03323619}
-      rotation: {x: 0.010191495, y: 0.007907592, z: -0.008530975, w: 0.9998804}
+      rotation: {x: 0.0101914955, y: 0.007907593, z: -0.008530976, w: 0.99988043}
       scale: {x: 1, y: 1, z: 1}
     - name: Left_Pinky_Finger_Joint_01b
       parentName: Left_Pinky_Finger_Joint_01a
@@ -604,7 +608,7 @@ ModelImporter:
     - name: Right_Wrist_Joint_01
       parentName: Right_Forearm_Joint_01
       position: {x: 0.30588374, y: -0.03317292, z: 0.007066546}
-      rotation: {x: -0.7051211, y: -0.008241995, z: 0.012901517, w: 0.70892155}
+      rotation: {x: -0.7051211, y: -0.008241996, z: 0.012901517, w: 0.7089216}
       scale: {x: 1, y: 1, z: 1}
     - name: Right_Index_Finger_Joint_01a
       parentName: Right_Wrist_Joint_01
@@ -629,7 +633,7 @@ ModelImporter:
     - name: Right_Middle_Finger_Joint_01b
       parentName: Right_Middle_Finger_Joint_01a
       position: {x: 0.044053018, y: 0.0000006337014, z: -0.000000019575731}
-      rotation: {x: 0.00064981356, y: 0.00044095775, z: 0.010304518, w: 0.9999466}
+      rotation: {x: 0.0006498136, y: 0.00044095775, z: 0.010304519, w: 0.9999466}
       scale: {x: 1, y: 1, z: 1}
     - name: Right_Middle_Finger_Joint_01c
       parentName: Right_Middle_Finger_Joint_01b
@@ -738,6 +742,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
