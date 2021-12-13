@@ -15,11 +15,11 @@ C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-I
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51722
+52603
 Successfully changed project path to: C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-Interaction/My project
 C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-Interaction/My project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -34,89 +34,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005772 seconds.
+Registered in 0.001558 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.387 seconds
+- Completed reload, in  1.269 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3388ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1728ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (550ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (566ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (130ms)
-			SetupLoadedEditorAssemblies (696ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (363ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021225 seconds.
+Registered in 0.004229 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.286 seconds
+- Completed reload, in  2.342 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6290ms)
-		BeginReloadAssembly (817ms)
+	ReloadAssembly (2343ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (5110ms)
-			LoadAssemblies (468ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (2056ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1578ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (285ms)
-			SetupLoadedEditorAssemblies (2020ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1411ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (599ms)
-				ProcessInitializeOnLoadAttributes (1322ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (1177ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.6 MB.
-System memory in use after: 67.7 MB.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1920.
-Total: 24.398700 ms (FindLiveObjects: 1.475200 ms CreateObjectMapping: 0.312100 ms MarkObjects: 21.871000 ms  DeleteObjects: 0.732200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 2.564900 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.037300 ms MarkObjects: 2.302600 ms  DeleteObjects: 0.086500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,112 +131,282 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(8a0d94b8e01dd4085afaae2cfb1b6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(8a0d94b8e01dd4085afaae2cfb1b6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c5c0e498bc82500764394ff6f40806') in 0.299716 seconds 
-  Import took 0.328557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001308 seconds.
-  path: Assets/Robot Kyle
-  artifactKey: Guid(ca229aaa7e9ffc742a95cb395a7fc13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle using Guid(ca229aaa7e9ffc742a95cb395a7fc13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278511f8165b5a2299b4406c4d871984') in 0.235598 seconds 
-  Import took 0.254938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.859632 seconds.
-  path: Assets/Robot Kyle/Textures
-  artifactKey: Guid(959baa1821af40f40ae7f501bf23b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Textures using Guid(959baa1821af40f40ae7f501bf23b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eb10d17745fb274068f54d20a6a72a') in 0.120670 seconds 
-  Import took 0.129931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.725558 seconds.
-  path: Assets/Robot Kyle/Model
-  artifactKey: Guid(c75f5d19f2513ba45bb3052db6deca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model using Guid(c75f5d19f2513ba45bb3052db6deca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1233dbd20e0d4c561b74d2324345cc3c') in 0.117212 seconds 
-  Import took 0.125286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.186837 seconds.
-  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
-  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94dba0f4c3d6417fcbe8a1c52571c41') in 1.242664 seconds 
-  Import took 1.256995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.016148 seconds.
   path: Assets/Robot Kyle/Animations/Robot Kyle.controller
   artifactKey: Guid(8ebe8bb85fc80314bb12b3d924324c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Animations/Robot Kyle.controller using Guid(8ebe8bb85fc80314bb12b3d924324c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78b39d1d3ae7b61af2f9cfd794a27ad') in 0.212455 seconds 
-  Import took 0.228820 seconds .
+Start importing Assets/Robot Kyle/Animations/Robot Kyle.controller using Guid(8ebe8bb85fc80314bb12b3d924324c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5114fc40b15127b64463eabd2cd83d26') in 0.070751 seconds 
+  Import took 0.076517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.279416 seconds.
-  path: Assets/Robot Kyle/Animations/Idle.anim
-  artifactKey: Guid(feb8d8f8b71073e4caff9c80b1b35a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Animations/Idle.anim using Guid(feb8d8f8b71073e4caff9c80b1b35a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e8cd7a468b65d68a8c6acdcb764b80') in 0.234425 seconds 
-  Import took 0.253048 seconds .
+  Time since last request: 254.271396 seconds.
+  path: Assets/Robot Kyle/Animations/idle.fbx
+  artifactKey: Guid(06454cfd14c0ad442b0627b69446ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/idle.fbx using Guid(06454cfd14c0ad442b0627b69446ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718c866d8aadc1bc600fe6bfcf7d4754') in 0.078178 seconds 
+  Import took 0.085248 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 112.994303 seconds.
-  path: Assets/Robot Kyle/Animations
-  artifactKey: Guid(287821ad5c0b94347b73db981fe27be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Animations using Guid(287821ad5c0b94347b73db981fe27be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f204a4e6fcc0809417d6ff2876f193') in 0.040325 seconds 
-  Import took 0.047114 seconds .
+  Time since last request: 16.219061 seconds.
+  path: Assets/Robot Kyle/Animations/left strafe walk.fbx
+  artifactKey: Guid(dc1311d047e6b6c4691a64cbbb49c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/left strafe walk.fbx using Guid(dc1311d047e6b6c4691a64cbbb49c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332e8ce0a00d0cd2326479f30c275ddc') in 0.042861 seconds 
+  Import took 0.049834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.381458 seconds.
+  path: Assets/Robot Kyle/Animations/Standing Idle.fbx
+  artifactKey: Guid(bf8b1b7596df9c445838d3ace99f10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/Standing Idle.fbx using Guid(bf8b1b7596df9c445838d3ace99f10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7c630534840255d1a0744b6feb6393') in 1.621884 seconds 
+  Import took 1.651587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001904 seconds.
+  path: Assets/Robot Kyle/Animations/walking.fbx
+  artifactKey: Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/walking.fbx using Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05d015e8c0cb9867fec6839d54cf998') in 0.339320 seconds 
+  Import took 0.370502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.806133 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions
+  artifactKey: Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions using Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b694957ba89f8d220f95f1c64614277') in 0.275793 seconds 
+  Import took 0.298653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515857 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers
+  artifactKey: Guid(2772e80ca8ca2eb438c6fad54e343aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers using Guid(2772e80ca8ca2eb438c6fad54e343aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4f35b2676f39c55cce24c4218831c0') in 0.287749 seconds 
+  Import took 0.312830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.653182 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement
+  artifactKey: Guid(162d3c986ae81044b8e9de5caae05de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement using Guid(162d3c986ae81044b8e9de5caae05de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa2baa7d9c8863da5b762f1d0073114') in 0.234002 seconds 
+  Import took 0.252367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.155496 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx
+  artifactKey: Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx using Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82bb1205308d3f4a7fb955dfd62ab78') in 0.156483 seconds 
+  Import took 0.170311 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010078 seconds.
+Registered in 0.008169 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.256 seconds
+- Completed reload, in  8.912 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3258ms)
-		BeginReloadAssembly (362ms)
+	ReloadAssembly (8914ms)
+		BeginReloadAssembly (441ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (109ms)
-		EndReloadAssembly (2684ms)
-			LoadAssemblies (292ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (8227ms)
+			LoadAssemblies (398ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (989ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (1007ms)
+			SetupTypeCache (2538ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (391ms)
+			SetupLoadedEditorAssemblies (3829ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (791ms)
+				ProcessInitializeOnLoadAttributes (2851ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (60ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 26.626800 ms (FindLiveObjects: 1.497400 ms CreateObjectMapping: 0.512100 ms MarkObjects: 24.469600 ms  DeleteObjects: 0.138900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100.475774 seconds.
+  path: Assets/Robot Kyle/Animations/idle.fbx
+  artifactKey: Guid(06454cfd14c0ad442b0627b69446ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/idle.fbx using Guid(06454cfd14c0ad442b0627b69446ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2036c854c9a583d7b657361a296486a2') in 0.436125 seconds 
+  Import took 0.463679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.693359 seconds.
+  path: Assets/Robot Kyle/Animations/jump.fbx
+  artifactKey: Guid(8359a55d1ff07e64293ca4f76c679c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/jump.fbx using Guid(8359a55d1ff07e64293ca4f76c679c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c9178f9c4aac0a4b75b7e5b1ef487d') in 0.327375 seconds 
+  Import took 0.356130 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.071148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11665ms)
+		BeginReloadAssembly (1064ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (338ms)
+		EndReloadAssembly (9833ms)
+			LoadAssemblies (1023ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (3146ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (454ms)
+			SetupLoadedEditorAssemblies (4144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (1060ms)
+				ProcessInitializeOnLoadAttributes (2904ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 33.137700 ms (FindLiveObjects: 1.377400 ms CreateObjectMapping: 0.514400 ms MarkObjects: 31.130200 ms  DeleteObjects: 0.106300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.945750 seconds.
+  path: Assets/Robot Kyle/Animations/jump.fbx
+  artifactKey: Guid(8359a55d1ff07e64293ca4f76c679c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/jump.fbx using Guid(8359a55d1ff07e64293ca4f76c679c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2630675ae81af2b3f3b1cd0bb6bd3a8') in 0.521228 seconds 
+  Import took 0.560775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.641559 seconds.
+  path: Assets/Robot Kyle/Animations/left turn.fbx
+  artifactKey: Guid(60ec3c0961f116247a42e21a4d9e9818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/left turn.fbx using Guid(60ec3c0961f116247a42e21a4d9e9818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed6933d30483b95232084c4df36583c') in 0.270903 seconds 
+  Import took 0.294801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606552 seconds.
+  path: Assets/Robot Kyle/Animations/left strafe.fbx
+  artifactKey: Guid(0de756f0cfed75f4e8c047a4514c142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/left strafe.fbx using Guid(0de756f0cfed75f4e8c047a4514c142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab008c2cdd7c0be3af7d5cc9cd7d690') in 0.093774 seconds 
+  Import took 0.109243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.299023 seconds.
+  path: Assets/Robot Kyle/Animations/left strafe.fbx
+  artifactKey: Guid(0de756f0cfed75f4e8c047a4514c142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/left strafe.fbx using Guid(0de756f0cfed75f4e8c047a4514c142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c8a7ee127cd38492b59c324d5d114f') in 0.188892 seconds 
+  Import took 0.207778 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6936ms)
+		BeginReloadAssembly (648ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (235ms)
+		EndReloadAssembly (5875ms)
+			LoadAssemblies (597ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2224ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (309ms)
+			SetupLoadedEditorAssemblies (2128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (289ms)
-				ProcessInitializeOnLoadAttributes (652ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (498ms)
+				ProcessInitializeOnLoadAttributes (1532ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (27ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 10.030200 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.095700 ms MarkObjects: 9.536700 ms  DeleteObjects: 0.105900 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 12.756800 ms (FindLiveObjects: 0.542100 ms CreateObjectMapping: 0.317200 ms MarkObjects: 11.825300 ms  DeleteObjects: 0.067300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -251,65 +421,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.335064 seconds.
-  path: Assets/Robot Kyle/Animations/New Animation.anim
-  artifactKey: Guid(74cca1132480fe64e90355ab6d5725b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Animations/New Animation.anim using Guid(74cca1132480fe64e90355ab6d5725b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4fef69cfd612917fb0e8159eefd456') in 0.115074 seconds 
-  Import took 0.123061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 163.185002 seconds.
-  path: Assets/Robot Kyle/Animations/New Animation.anim
-  artifactKey: Guid(74cca1132480fe64e90355ab6d5725b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Animations/New Animation.anim using Guid(74cca1132480fe64e90355ab6d5725b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca6f273b36146f56746ace0dcfe0ec8') in 0.108424 seconds 
-  Import took 0.121953 seconds .
+  Time since last request: 89.091407 seconds.
+  path: Assets/Robot Kyle/Animations/walking.fbx
+  artifactKey: Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/walking.fbx using Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790fd5fffc146afe8cab87ab9e2df087') in 0.172199 seconds 
+  Import took 0.184087 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.077507 seconds.
+Registered in 0.047229 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.454 seconds
+- Completed reload, in 12.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5456ms)
-		BeginReloadAssembly (665ms)
+	ReloadAssembly (12512ms)
+		BeginReloadAssembly (991ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (41ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (192ms)
-		EndReloadAssembly (4359ms)
-			LoadAssemblies (582ms)
+			CreateAndSetChildDomain (308ms)
+		EndReloadAssembly (10858ms)
+			LoadAssemblies (953ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1724ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (183ms)
-			SetupLoadedEditorAssemblies (1496ms)
+			SetupTypeCache (3378ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (482ms)
+			SetupLoadedEditorAssemblies (4957ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (430ms)
-				ProcessInitializeOnLoadAttributes (968ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (24ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (950ms)
+				ProcessInitializeOnLoadAttributes (3811ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 10.580900 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.107700 ms MarkObjects: 10.055000 ms  DeleteObjects: 0.052100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 30.683200 ms (FindLiveObjects: 1.197600 ms CreateObjectMapping: 0.555200 ms MarkObjects: 28.786800 ms  DeleteObjects: 0.134400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -324,10 +486,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.568370 seconds.
-  path: Assets/Robot Kyle/Animations/Idle.anim
-  artifactKey: Guid(feb8d8f8b71073e4caff9c80b1b35a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Animations/Idle.anim using Guid(feb8d8f8b71073e4caff9c80b1b35a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac76c55662f79713431f7027418f5c5') in 0.161086 seconds 
-  Import took 0.170851 seconds .
+  Time since last request: 126.206286 seconds.
+  path: Assets/Robot Kyle/Animations/walking.fbx
+  artifactKey: Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/walking.fbx using Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dfd2507d592b5c45c9d2543685f58a') in 0.500841 seconds 
+  Import took 0.533570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.271828 seconds.
+  path: Assets/Robot Kyle/Animations/walking.fbx
+  artifactKey: Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/walking.fbx using Guid(f09f100adcd25e6468fc6d73fc1e6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d32b679a56331cc0837e717721c4601') in 0.309360 seconds 
+  Import took 0.337086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.421809 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations
+  artifactKey: Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations using Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c73e0640287aaf713a65a663f132ebf') in 0.282792 seconds 
+  Import took 0.309127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.774150 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(0536f044bd409ff419dd726bc69d2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx using Guid(0536f044bd409ff419dd726bc69d2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f7a7f6299d4546489df202f1fc48e8') in 0.357212 seconds 
+  Import took 0.389802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.479633 seconds.
+  path: Assets/Robot Kyle/Animations/idle.fbx
+  artifactKey: Guid(06454cfd14c0ad442b0627b69446ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/idle.fbx using Guid(06454cfd14c0ad442b0627b69446ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0452dd7dac3f4837cb5844f158573a') in 0.327974 seconds 
+  Import took 0.359393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.063627 seconds.
+  path: Assets/Robot Kyle/Animations/right strafe.fbx
+  artifactKey: Guid(6e55374841cc93347b8541787042e7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right strafe.fbx using Guid(6e55374841cc93347b8541787042e7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b421d6586e26d8b3a2662b79ceaea70') in 0.450742 seconds 
+  Import took 0.542546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.330482 seconds.
+  path: Assets/Robot Kyle/Animations/right turn.fbx
+  artifactKey: Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right turn.fbx using Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9aff00c85a2bf5323c5e5edcffd370') in 0.308462 seconds 
+  Import took 0.337027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.650570 seconds.
+  path: Assets/Robot Kyle/Animations/right turn.fbx
+  artifactKey: Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right turn.fbx using Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b960c0d0a5636d1b354185315f3f26') in 0.183188 seconds 
+  Import took 0.201123 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.045450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12390ms)
+		BeginReloadAssembly (1016ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (286ms)
+		EndReloadAssembly (10650ms)
+			LoadAssemblies (966ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3200ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (487ms)
+			SetupLoadedEditorAssemblies (5011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (936ms)
+				ProcessInitializeOnLoadAttributes (3909ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 25.066300 ms (FindLiveObjects: 0.729100 ms CreateObjectMapping: 0.299600 ms MarkObjects: 23.656600 ms  DeleteObjects: 0.371100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.342339 seconds.
+  path: Assets/Robot Kyle/Animations/right turn.fbx
+  artifactKey: Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right turn.fbx using Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e5e05530435f74405477f2999be337') in 0.473689 seconds 
+  Import took 0.500899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.758588 seconds.
+  path: Assets/Robot Kyle/Animations/right turn.fbx
+  artifactKey: Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right turn.fbx using Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55d88ea9a14f68c2ad230ee0b7b9011') in 0.300672 seconds 
+  Import took 0.326022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.254408 seconds.
+  path: Assets/Robot Kyle/Animations/right turn.fbx
+  artifactKey: Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right turn.fbx using Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0300e96f9a346d1ff6574c73bf56d') in 0.312699 seconds 
+  Import took 0.337765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.386989 seconds.
+  path: Assets/Robot Kyle/Animations/right turn.fbx
+  artifactKey: Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/right turn.fbx using Guid(9d76a9b02ebe22048be3f1eeb315c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ae461c3669bc39b14f6579232e8386') in 0.318205 seconds 
+  Import took 0.349407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.330507 seconds.
+  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc17288609b8a7e1685ea9c419863b69') in 1.429736 seconds 
+  Import took 1.464333 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
