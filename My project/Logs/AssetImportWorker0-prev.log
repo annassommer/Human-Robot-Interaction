@@ -1871,3 +1871,4 @@ Received Import Request.
 Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46db23716272956467c90831c6c24d6') in 0.434743 seconds 
   Import took 0.439019 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
