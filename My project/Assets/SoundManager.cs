@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using UnityEditor.Experimental;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
+using Object = UnityEngine.Object;
 
 public class SoundManager : MonoBehaviour
 {
@@ -16,9 +19,8 @@ public class SoundManager : MonoBehaviour
         Desinfection,
         OpenWindow,
         OpenDoor
-        
-
     }
+    
 
     private static GameObject oneShotGameObject;
     private static AudioSource oneShotAudioSource;
@@ -35,6 +37,7 @@ public class SoundManager : MonoBehaviour
 
     }
 
+    // Get AudioClip from Manager
     private AudioClip GetAudioClip(Sound sound)
     {
         foreach (SoundAudioClip soundAudioClip in soundAudioClipArray)
@@ -48,6 +51,7 @@ public class SoundManager : MonoBehaviour
         return null;
     }
     
+    // Play 2D Sound
     public void PlaySound(Sound sound) {
         if (CanPlaySound(sound))
         {
@@ -60,6 +64,8 @@ public class SoundManager : MonoBehaviour
         }
 
     }
+    
+    // Play 3D sound based on object position
     public void PlaySound(Sound sound, Vector3 position) {
         if (CanPlaySound(sound))
         {
@@ -73,8 +79,8 @@ public class SoundManager : MonoBehaviour
         }
 
     }
-
-
+    
+    // If sound is called at runtime check if sound already plays
     private static bool CanPlaySound(Sound sound)
     {
         switch(sound)
@@ -101,5 +107,18 @@ public class SoundManager : MonoBehaviour
                     return true;
                 }
         }
+    }
+    
+    // play Voice Recording
+    public void PlayVoice(String name, String clipNum,  Vector3 position)
+    {
+        String filename = clipNum + "_" + name + ".mp3";
+        GameObject soundGameObject = new GameObject("Sound");
+        soundGameObject.transform.position = position;
+        AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
+        audioSource.PlayOneShot((AudioClip)Resources.Load(filename));
+        
+        Object.Destroy(soundGameObject, audioSource.clip.length);
+
     }
 }
