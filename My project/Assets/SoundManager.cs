@@ -4,15 +4,19 @@ using System.Diagnostics;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
-public class SoundManager
+public class SoundManager : MonoBehaviour
 {
     public enum Sound
     {
         OroVoice,
         KyleVoice,
-        Background,
-        WateringPlant,
-        FootSteps
+        BackgroundHospital,
+        BackgroundStreet,
+        FootSteps,
+        Desinfection,
+        OpenWindow,
+        OpenDoor
+        
 
     }
 
