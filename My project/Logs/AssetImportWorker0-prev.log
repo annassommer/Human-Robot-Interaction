@@ -15,11 +15,11 @@ C:/Users/m-ber/Documents/GitHub/Human-Robot-Interaction/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51252
+52845
 Successfully changed project path to: C:/Users/m-ber/Documents/GitHub/Human-Robot-Interaction/My project
 C:/Users/m-ber/Documents/GitHub/Human-Robot-Interaction/My project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,249 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001234 seconds.
+Registered in 0.002219 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.502 seconds
+- Completed reload, in  1.381 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1502ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (1382ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (465ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (180ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005668 seconds.
+Registered in 0.010153 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  0.944 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (843ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1605 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 2.581900 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.053200 ms MarkObjects: 2.255200 ms  DeleteObjects: 0.110400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Characters/Oro
+  artifactKey: Guid(b76ca77152faef34eb892998106c6ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Oro using Guid(b76ca77152faef34eb892998106c6ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24089439aada2e5d748242d1805a22b0') in 0.026624 seconds 
+  Import took 0.029657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(7305c256fd06aa347a76c6e668b57596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(7305c256fd06aa347a76c6e668b57596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5976a9a6b14c98546c17d750088c4780') in 0.024564 seconds 
+  Import took 0.027305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623723 seconds.
+  path: Assets/Characters/Oro/prefabs
+  artifactKey: Guid(7502fcac803ced94ab93d2946398f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Oro/prefabs using Guid(7502fcac803ced94ab93d2946398f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9750f6552335e735c713b097e437582a') in 0.024238 seconds 
+  Import took 0.027248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041260 seconds.
+  path: Assets/Characters/Oro/prefabs/Oro_pre.prefab
+  artifactKey: Guid(81e53770ee389bd44afb12ef67be71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Oro/prefabs/Oro_pre.prefab using Guid(81e53770ee389bd44afb12ef67be71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637855e1f89aa41a6f6013da990d6970') in 0.646050 seconds 
+  Import took 0.649928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.106863 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56183a42356930568c16d39ac7c902f0') in 0.024256 seconds 
+  Import took 0.028180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 563.488012 seconds.
+  path: Assets/retargetController.controller
+  artifactKey: Guid(accea0561c644d44397970e34aead61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retargetController.controller using Guid(accea0561c644d44397970e34aead61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be93c87759d1c0c277254dc548eb803a') in 0.028248 seconds 
+  Import took 0.031312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.207756 seconds.
+  path: Assets/Robot Kyle
+  artifactKey: Guid(a381190e739236746a61ada1d6bc5d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle using Guid(a381190e739236746a61ada1d6bc5d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b5ca7a46361432e4bb3b67c72dc275') in 0.023611 seconds 
+  Import took 0.027131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.506247 seconds.
+  path: Assets/Robot Kyle/Animations
+  artifactKey: Guid(287821ad5c0b94347b73db981fe27be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations using Guid(287821ad5c0b94347b73db981fe27be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f204a4e6fcc0809417d6ff2876f193') in 0.022444 seconds 
+  Import took 0.025945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053372 seconds.
+  path: Assets/Robot Kyle/Animations/Standard Walk.fbx
+  artifactKey: Guid(6474919f9099e4f4989ed8d0ded995da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/Standard Walk.fbx using Guid(6474919f9099e4f4989ed8d0ded995da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8686b3b8e567595a071fabb7047c8e') in 0.081325 seconds 
+  Import took 0.084692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.630178 seconds.
+  path: Assets/Oro
+  artifactKey: Guid(201eb1f960a596f42ad5143f8d370c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro using Guid(201eb1f960a596f42ad5143f8d370c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d637dbc8cffee7edb6236676ebb911') in 0.022368 seconds 
+  Import took 0.024869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.043774 seconds.
+  path: Assets/Oro/Animations
+  artifactKey: Guid(f36efe1aced46f74b8be30593eda856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Animations using Guid(f36efe1aced46f74b8be30593eda856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9259c783e0884ac1e307fdbe86b0c415') in 0.022105 seconds 
+  Import took 0.025355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.265640 seconds.
+  path: Assets/Robot Kyle/Animations/mixamo.com.anim
+  artifactKey: Guid(a557ff905529a4949bccf665d93dd6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/mixamo.com.anim using Guid(a557ff905529a4949bccf665d93dd6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f1660f4f7e55c7dea8ed6c9f5305b8') in 0.038730 seconds 
+  Import took 0.042152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.785226 seconds.
+  path: Assets/Robot Kyle/Animations/walking.anim
+  artifactKey: Guid(a557ff905529a4949bccf665d93dd6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/walking.anim using Guid(a557ff905529a4949bccf665d93dd6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74c9e0239c21fe4d0fb833bb7f889bb') in 0.035016 seconds 
+  Import took 0.038197 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1605 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.6 MB.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2056.
-Total: 2.605100 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.053200 ms MarkObjects: 2.286700 ms  DeleteObjects: 0.106500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 2.452700 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.147700 ms  DeleteObjects: 0.084700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,29 +292,1449 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/GrabStuff.controller
-  artifactKey: Guid(c161e257e26f6514d903ea1b607a2871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/GrabStuff.controller using Guid(c161e257e26f6514d903ea1b607a2871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f63ca3a1208e8e2d0f3ebae35b0dfcc') in 0.066946 seconds 
-  Import took 0.070339 seconds .
+  Time since last request: 7016.506044 seconds.
+  path: Assets/Oro/Characters/Oro/meshes
+  artifactKey: Guid(f20b16c25fafba044b201594dd19ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Characters/Oro/meshes using Guid(f20b16c25fafba044b201594dd19ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e02fa5a0795dc3ccc1fbbe1c02da374') in 0.078622 seconds 
+  Import took 0.132187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.707237 seconds.
-  path: Assets/animat.cs
-  artifactKey: Guid(b4443ef5dd543264dbde019690808b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animat.cs using Guid(b4443ef5dd543264dbde019690808b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ddc60015ea58f54a93fa83c0f0f2d9') in 0.027467 seconds 
-  Import took 0.030295 seconds .
+  Time since last request: 0.000193 seconds.
+  path: Assets/Oro/Characters/Oro/meshes/Oro.fbx
+  artifactKey: Guid(da6ffc281ea30fe4699edaba78e64f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Characters/Oro/meshes/Oro.fbx using Guid(da6ffc281ea30fe4699edaba78e64f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d75ba8642e27d75bb868e7f3453b52') in 0.657326 seconds 
+  Import took 0.661567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.507945 seconds.
+  path: Assets/Kevin Iglesias
+  artifactKey: Guid(64deb88e94ff4184c968c27b974ca1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias using Guid(64deb88e94ff4184c968c27b974ca1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8dd0d718bdf84dc1b6332257da1116') in 0.023983 seconds 
+  Import took 0.027799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940192 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions
+  artifactKey: Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions using Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b694957ba89f8d220f95f1c64614277') in 0.023227 seconds 
+  Import took 0.026174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.093854 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations
+  artifactKey: Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations using Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c73e0640287aaf713a65a663f132ebf') in 0.021985 seconds 
+  Import took 0.025381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.323500 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/Picking Up Object (1).fbx
+  artifactKey: Guid(ed9f8899b74f87c44a11831d43e3588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/Picking Up Object (1).fbx using Guid(ed9f8899b74f87c44a11831d43e3588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af426b3c46f18cf327441f8e85c82eb') in 0.032586 seconds 
+  Import took 0.036141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/Waving.fbx
+  artifactKey: Guid(ccf35affc9401b04d8d943873d5a291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/Waving.fbx using Guid(ccf35affc9401b04d8d943873d5a291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14f762954961fdef2ab561eedfff59b') in 0.032419 seconds 
+  Import took 0.035699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/Reacting.fbx
+  artifactKey: Guid(fe931eb7c33d5824e8900025b973f40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/Reacting.fbx using Guid(fe931eb7c33d5824e8900025b973f40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fa1d23c147930e0f963282a22385ac') in 0.030980 seconds 
+  Import took 0.034227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.729153 seconds.
+  path: Assets/Tabpill
+  artifactKey: Guid(cfe60e4fbc20c0c459bb2d74af1e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill using Guid(cfe60e4fbc20c0c459bb2d74af1e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210dcd97fcacfd5bc6ac826698d1326c') in 0.022774 seconds 
+  Import took 0.027113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.362897 seconds.
+  path: Assets/Tabpill/Materials
+  artifactKey: Guid(1994e6a8333fa5c4985ecce309a86e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials using Guid(1994e6a8333fa5c4985ecce309a86e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741169607dfb7cc969e514abc8cd999d') in 0.023512 seconds 
+  Import took 0.027028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039451 seconds.
+  path: Assets/Tabpill/Materials/Leaves_Mat.mat
+  artifactKey: Guid(0b71e80744f96f644b008642e91ef722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Leaves_Mat.mat using Guid(0b71e80744f96f644b008642e91ef722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81d00d3e3042f50062e8ab8a3fbd075') in 0.043687 seconds 
+  Import took 0.047171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tabpill/Materials/Palm_Leaves_2_Mat.mat
+  artifactKey: Guid(f1e0e602278229141b574534573b695f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Palm_Leaves_2_Mat.mat using Guid(f1e0e602278229141b574534573b695f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e5c4097e244e9bc85da09a17549bd7') in 0.029881 seconds 
+  Import took 0.032695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tabpill/Materials/Palm_Leaves_1_Mat.mat
+  artifactKey: Guid(b682606eabb680d4da1c2f71e9220e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Palm_Leaves_1_Mat.mat using Guid(b682606eabb680d4da1c2f71e9220e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336f1c88cc40d69bb3d0f5b7d59791ba') in 0.032374 seconds 
+  Import took 0.035395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tabpill/Materials/Material #32.mat
+  artifactKey: Guid(48c9f54b6be0df848bc900cad1e5b3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Material #32.mat using Guid(48c9f54b6be0df848bc900cad1e5b3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dc3feac9a2cd692d4ae5bf5cec08cf') in 0.031351 seconds 
+  Import took 0.034128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tabpill/Materials/Material_2_Mat.mat
+  artifactKey: Guid(b52bb512d4f9a9446b2a6dcc6700ff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Material_2_Mat.mat using Guid(b52bb512d4f9a9446b2a6dcc6700ff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3844d0e24a5ac1d52dc01f38616a1f') in 0.030659 seconds 
+  Import took 0.033626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tabpill/Materials/Material #35.mat
+  artifactKey: Guid(ac3d2bbc029e5fb4d99711a993244b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Material #35.mat using Guid(ac3d2bbc029e5fb4d99711a993244b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f505bd5d2a93ad38a31716c1bc016038') in 0.029179 seconds 
+  Import took 0.032052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tabpill/Materials/Money_Trunk_Mat.mat
+  artifactKey: Guid(7cffbe3c1831c8a4f9eff9f9ea2ae607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Money_Trunk_Mat.mat using Guid(7cffbe3c1831c8a4f9eff9f9ea2ae607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea364b6bbb4f18a689af80c1bf690dfc') in 0.029472 seconds 
+  Import took 0.032570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tabpill/Materials/Pill Bottle Bake_Pill Bottle_Normal.mat
+  artifactKey: Guid(3daa2e23e0de56c41a5ebfc254833e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Pill Bottle Bake_Pill Bottle_Normal.mat using Guid(3daa2e23e0de56c41a5ebfc254833e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cad2ebb85718f3cc8eedcd624fac28') in 0.029650 seconds 
+  Import took 0.032462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tabpill/Materials/trunk_Mat.mat
+  artifactKey: Guid(fb49fd5b82efe0e47a6b6f3f8ca2eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/trunk_Mat.mat using Guid(fb49fd5b82efe0e47a6b6f3f8ca2eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9dae48b24abf385bc24545b25d3b2d') in 0.029447 seconds 
+  Import took 0.032199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tabpill/Materials/Pill Bottle Bake_Pill Bottle_MaskMap 1.mat
+  artifactKey: Guid(ae414d33ef50f5c49a152143a7bcca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Pill Bottle Bake_Pill Bottle_MaskMap 1.mat using Guid(ae414d33ef50f5c49a152143a7bcca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d29a253676a007f150dc197d4e2492c') in 0.028322 seconds 
+  Import took 0.031459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tabpill/Materials/stem_Mat.mat
+  artifactKey: Guid(d9d9293021bd9b04ebe0a679d3786162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/stem_Mat.mat using Guid(d9d9293021bd9b04ebe0a679d3786162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de9548edc5c56871d12811d80c1aa2') in 0.028288 seconds 
+  Import took 0.031192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tabpill/Materials/Pill Bottle Bake_Pill Bottle_BaseMap.mat
+  artifactKey: Guid(37d04f0e95ab8ec41a7dab8c6b815d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Pill Bottle Bake_Pill Bottle_BaseMap.mat using Guid(37d04f0e95ab8ec41a7dab8c6b815d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12636fd4832de655c66885c363583a5') in 0.029539 seconds 
+  Import took 0.032188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Tabpill/Materials/Money_Leaves_Mat.mat
+  artifactKey: Guid(c9ec9954460b8b041ae4cdaad11c64d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabpill/Materials/Money_Leaves_Mat.mat using Guid(c9ec9954460b8b041ae4cdaad11c64d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93baeb9fbe0022c6905f65c5ddcb5b07') in 0.028244 seconds 
+  Import took 0.031070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.234964 seconds.
+  path: Assets/Robot Kyle/Materials
+  artifactKey: Guid(4a1b6a709fe92ba48b91712da5fd36b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Materials using Guid(4a1b6a709fe92ba48b91712da5fd36b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04053b4a66a2097eab406ef2721ab227') in 0.022256 seconds 
+  Import took 0.025788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.818236 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(4971f1d7e99e7420582fce6642954a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(4971f1d7e99e7420582fce6642954a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaf6b25399d383c8772e9a8091d188c') in 0.022711 seconds 
+  Import took 0.025677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922692 seconds.
+  path: Assets/Plugins/Wolf3D
+  artifactKey: Guid(3a0ef4c40b44c08449bd1881374239af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D using Guid(3a0ef4c40b44c08449bd1881374239af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5d57721ff7072ba2f4eaf5020489b3') in 0.024866 seconds 
+  Import took 0.028631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.054070 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack
+  artifactKey: Guid(8264281a0f6523f458bcbba58d1cfabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack using Guid(8264281a0f6523f458bcbba58d1cfabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3ca2520c3be3eb485f7d220184c1b7') in 0.023395 seconds 
+  Import took 0.026629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.140360 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits
+  artifactKey: Guid(477bb804fdc8ac447976fd7737b7e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits using Guid(477bb804fdc8ac447976fd7737b7e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b652a42864011cd139686ced18e4000c') in 0.024374 seconds 
+  Import took 0.028402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.370170 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2
+  artifactKey: Guid(4bc5aec8290f2d34c95c8aad5c4dc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2 using Guid(4bc5aec8290f2d34c95c8aad5c4dc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca928ae41e590e774db95f317de48040') in 0.024035 seconds 
+  Import took 0.027658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.036355 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials
+  artifactKey: Guid(df8317d93c07a0a48ba4552577a934d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials using Guid(df8317d93c07a0a48ba4552577a934d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26afaabcffa5e5354dc8bf57e29251b3') in 0.022080 seconds 
+  Import took 0.024980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051982 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials/Female_Outfit_02_Pants.mat
+  artifactKey: Guid(abad588c23c43334cbeba20b4a7aaae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials/Female_Outfit_02_Pants.mat using Guid(abad588c23c43334cbeba20b4a7aaae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213dab35e9cec8b08869eb12eab58cfd') in 0.138469 seconds 
+  Import took 0.141775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials/Female_Outfit_02_Shoes.mat
+  artifactKey: Guid(6602fe759ae6d934ea45091f15604f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials/Female_Outfit_02_Shoes.mat using Guid(6602fe759ae6d934ea45091f15604f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68da7e53dc3a09ff5878d1e4a4c8170') in 0.075767 seconds 
+  Import took 0.078121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials/Female_Outfit_02_Shirt.mat
+  artifactKey: Guid(feb7f18c518c1eb438f77f0ef5491bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Materials/Female_Outfit_02_Shirt.mat using Guid(feb7f18c518c1eb438f77f0ef5491bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9438ef5fb15f78561ed3cc10dd6eac9') in 0.238509 seconds 
+  Import took 0.241383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.132230 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures
+  artifactKey: Guid(a11641262cc1cec44b3b08787d663782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures using Guid(a11641262cc1cec44b3b08787d663782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d741ecdf8aab82f149901c6a1ae557c') in 0.027921 seconds 
+  Import took 0.031309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028556 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Pants_02.png
+  artifactKey: Guid(df58d05fcfb0ef74ca4062a6c4aa5afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Pants_02.png using Guid(df58d05fcfb0ef74ca4062a6c4aa5afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fda886465c3a549954fdb62b987739') in 0.057008 seconds 
+  Import took 0.059802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shoes_02_N.png
+  artifactKey: Guid(35253071cebd2434ca3db6a58fde1c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shoes_02_N.png using Guid(35253071cebd2434ca3db6a58fde1c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5038ce489838efa91408d786f939a9') in 0.033460 seconds 
+  Import took 0.036525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shirt_02_N.png
+  artifactKey: Guid(63ebe21d0bb197446981c4e4a3bfdde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shirt_02_N.png using Guid(63ebe21d0bb197446981c4e4a3bfdde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcd39296273d8b5f09da468c58017a3') in 0.031184 seconds 
+  Import took 0.033431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Pants_02_N.png
+  artifactKey: Guid(18834f01123b6b64e8f592e211938f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Pants_02_N.png using Guid(18834f01123b6b64e8f592e211938f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf4ed8b830084e7434f3b3bd351a801') in 0.035846 seconds 
+  Import took 0.039430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shoes_02_S.png
+  artifactKey: Guid(5cfc10349d3e17147a0fc8f1b28148f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shoes_02_S.png using Guid(5cfc10349d3e17147a0fc8f1b28148f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3309c1d521c8997183f3d6e27c40a40') in 0.031922 seconds 
+  Import took 0.034550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shoes_02.png
+  artifactKey: Guid(106b74420fdb28344a3f6bdf87840ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shoes_02.png using Guid(106b74420fdb28344a3f6bdf87840ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf77c4994b1a203f5dc2438cfe1dde') in 0.037550 seconds 
+  Import took 0.042234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shirt_02.png
+  artifactKey: Guid(6f12c26fdea3ba64b8820fd73ce2977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Shirt_02.png using Guid(6f12c26fdea3ba64b8820fd73ce2977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114beae88a6d4ca639543411c8150735') in 0.037999 seconds 
+  Import took 0.042960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Pants_02_S.png
+  artifactKey: Guid(e381e1dd4e2181445b083418310aa21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Outfits/Female Outfit 2/Textures/Outfit_Pants_02_S.png using Guid(e381e1dd4e2181445b083418310aa21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b902eeabdbcb9a025688d7bb372d0fea') in 0.036133 seconds 
+  Import took 0.040147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.059628 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set
+  artifactKey: Guid(c152c028786931041a476e1602013ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set using Guid(c152c028786931041a476e1602013ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c43352456be2793d228da4376af35a') in 0.022714 seconds 
+  Import took 0.025854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.331662 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models
+  artifactKey: Guid(4741e978cdb6f53408912beddc541e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models using Guid(4741e978cdb6f53408912beddc541e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bc1eb6662d6f8935f3ebccb9a90d47') in 0.022771 seconds 
+  Import took 0.025833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042384 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Bandage.fbx
+  artifactKey: Guid(cb1629bc8e87bfb4d87177db086af6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Bandage.fbx using Guid(cb1629bc8e87bfb4d87177db086af6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37ef7836705882cd1b557738fa4b6d0') in 0.055963 seconds 
+  Import took 0.059197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Patch.fbx
+  artifactKey: Guid(095b02c5ee6576f40b141af933bfed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Patch.fbx using Guid(095b02c5ee6576f40b141af933bfed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22d641e374a6c0be03d8b7c751f7871') in 0.096506 seconds 
+  Import took 0.099522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Sunscreen.fbx
+  artifactKey: Guid(f280263e5b6bd7f4b8d7aeb3e4fc09c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Sunscreen.fbx using Guid(f280263e5b6bd7f4b8d7aeb3e4fc09c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a1bdec50a7c352cddcd4303f85776f') in 0.076207 seconds 
+  Import took 0.079627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Jar_Pills.fbx
+  artifactKey: Guid(03c46dbce9e47f040a0dc35f51084f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Jar_Pills.fbx using Guid(03c46dbce9e47f040a0dc35f51084f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d971017ed88b1ad44e7b80f793bb00') in 0.411959 seconds 
+  Import took 0.417756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Scissors.fbx
+  artifactKey: Guid(0e264041bbcf01546bec7b6261eeba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Scissors.fbx using Guid(0e264041bbcf01546bec7b6261eeba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553e9a9847600b83d87fcb5d4d177f6e') in 0.087164 seconds 
+  Import took 0.090864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Brilliant_Green.fbx
+  artifactKey: Guid(8e1dc57411121f542ae24e2aca172939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Brilliant_Green.fbx using Guid(8e1dc57411121f542ae24e2aca172939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37e9d954993b94f1a9768e77d1200f') in 0.054630 seconds 
+  Import took 0.057360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Pills.fbx
+  artifactKey: Guid(fbc7a062864c7294fa99e1efbe3658e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Pills.fbx using Guid(fbc7a062864c7294fa99e1efbe3658e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1f56819680c6c0d26b32a077404d40') in 0.227248 seconds 
+  Import took 0.233829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Enema.fbx
+  artifactKey: Guid(939be2488f4742449be3c0baff75d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Enema.fbx using Guid(939be2488f4742449be3c0baff75d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e122079b66c929f0676ef61f971d79c8') in 0.063575 seconds 
+  Import took 0.066997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/First_Aid_Kit.fbx
+  artifactKey: Guid(a8937b157328c2c4586d7b4ad823dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/First_Aid_Kit.fbx using Guid(a8937b157328c2c4586d7b4ad823dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa47bd3e6f1d9f82824b763ab7fdf71') in 0.085900 seconds 
+  Import took 0.088859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Stretch_Cream.fbx
+  artifactKey: Guid(94ad69e8e2b31df4eb322513617bd45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Stretch_Cream.fbx using Guid(94ad69e8e2b31df4eb322513617bd45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f360eb6cfbd392ec2185845246c467d9') in 0.079006 seconds 
+  Import took 0.082014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Disinfectant.fbx
+  artifactKey: Guid(2f0791637b98f98439fd931a11b3ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Disinfectant.fbx using Guid(2f0791637b98f98439fd931a11b3ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f829218dd53c77592c9d9f0fb5a39797') in 0.074223 seconds 
+  Import took 0.077529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.503228 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures
+  artifactKey: Guid(9978975c3802f4e4c8e2681169baf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures using Guid(9978975c3802f4e4c8e2681169baf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765d44d540d25e6f8dcc18092ce2e0ab') in 0.021878 seconds 
+  Import took 0.025252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024074 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Bandage_tex_AlbedoTransparency.png
+  artifactKey: Guid(3dd51d219e4c7bd4d942953d00d71cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Bandage_tex_AlbedoTransparency.png using Guid(3dd51d219e4c7bd4d942953d00d71cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd83505829d7b82074e329bd2396800') in 0.028944 seconds 
+  Import took 0.031561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Patch_tex_AlbedoTransparency.png
+  artifactKey: Guid(52ff88423f4b17f46a17d94ec330e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Patch_tex_AlbedoTransparency.png using Guid(52ff88423f4b17f46a17d94ec330e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdca510019ef1cb12a954d266055615') in 0.032921 seconds 
+  Import took 0.035982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/First_Aid_Kit_tex_MetallicSmoothness.png
+  artifactKey: Guid(d907b7aff4f78f7419ef079ff5e4f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/First_Aid_Kit_tex_MetallicSmoothness.png using Guid(d907b7aff4f78f7419ef079ff5e4f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221a4c7a88b63fad030ab898902389f4') in 0.029674 seconds 
+  Import took 0.032396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Bandage_tex_MetallicSmoothness.png
+  artifactKey: Guid(ba7346263388bf14fbaef43c883a9458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Bandage_tex_MetallicSmoothness.png using Guid(ba7346263388bf14fbaef43c883a9458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f01c299e13432460db639074768b106') in 0.030359 seconds 
+  Import took 0.033242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Brilliant_Green_tex_Normal.png
+  artifactKey: Guid(2294d5b7fd26cc54b9b33c0c5083b074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Brilliant_Green_tex_Normal.png using Guid(2294d5b7fd26cc54b9b33c0c5083b074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e41756ce4381e05cd398446de563222') in 0.029897 seconds 
+  Import took 0.032850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Sunscreen_tex_Normal.png
+  artifactKey: Guid(505c879b9033f8247b5b0a8619f13b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Sunscreen_tex_Normal.png using Guid(505c879b9033f8247b5b0a8619f13b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce73531a878be9e70e31c3f477b6c90') in 0.030703 seconds 
+  Import took 0.033515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Disinfectant_tex_AlbedoTransparency.png
+  artifactKey: Guid(4efab00e85f56b84e99d888d5c80bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Disinfectant_tex_AlbedoTransparency.png using Guid(4efab00e85f56b84e99d888d5c80bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e75675a260db1893da930302b7a2aaa') in 0.032563 seconds 
+  Import took 0.035074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Disinfectant_tex_MetallicSmoothness.png
+  artifactKey: Guid(aeebfc207bfa5bb4fa92e9c0485e5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Disinfectant_tex_MetallicSmoothness.png using Guid(aeebfc207bfa5bb4fa92e9c0485e5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792138c1d50fa53b1676eb026032d63d') in 0.030701 seconds 
+  Import took 0.033148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Brilliant_Green_tex_AlbedoTransparency.png
+  artifactKey: Guid(6ff8928602a8994499c53c81d1dc9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Brilliant_Green_tex_AlbedoTransparency.png using Guid(6ff8928602a8994499c53c81d1dc9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e55be0351a5d3378e84c5f65e9e87a') in 0.029270 seconds 
+  Import took 0.032363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Scissors_tex_AlbedoTransparency.png
+  artifactKey: Guid(71d47f998aae4b54db87e090cb7a3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Scissors_tex_AlbedoTransparency.png using Guid(71d47f998aae4b54db87e090cb7a3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377561901952bf5de3b5972402271e61') in 0.032369 seconds 
+  Import took 0.035128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Jar_Pills_tex_Normal.png
+  artifactKey: Guid(d9f320fd15c75e144b68b3ac500b1fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Jar_Pills_tex_Normal.png using Guid(d9f320fd15c75e144b68b3ac500b1fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ebcc513f9192db22b166a09df34532') in 0.044983 seconds 
+  Import took 0.048965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Sunscreen_tex_AlbedoTransparency.png
+  artifactKey: Guid(89dccf84f6c49604e80a8c1fad907bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Sunscreen_tex_AlbedoTransparency.png using Guid(89dccf84f6c49604e80a8c1fad907bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7395cc819dd9fec30040d24ff9a0d429') in 0.031901 seconds 
+  Import took 0.034770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Pills_tex_MetallicSmoothness.png
+  artifactKey: Guid(e38d99f6e624dd74490a8c16f80b1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Pills_tex_MetallicSmoothness.png using Guid(e38d99f6e624dd74490a8c16f80b1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5045da5ac5976884497441410cba97c') in 0.046586 seconds 
+  Import took 0.050319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Enema_tex_Normal.png
+  artifactKey: Guid(259a1e1a26062524292834a28a45766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Enema_tex_Normal.png using Guid(259a1e1a26062524292834a28a45766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32bdec3a41c41bfb2bd88146fe412c5') in 0.030100 seconds 
+  Import took 0.032800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Patch_tex_MetallicSmoothness.png
+  artifactKey: Guid(1edfab1b2df8a4d4b8dea633efd61360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Patch_tex_MetallicSmoothness.png using Guid(1edfab1b2df8a4d4b8dea633efd61360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcc5d88a5155cc138797c5870668480') in 0.032397 seconds 
+  Import took 0.034867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Stretch_Cream_tex_AlbedoTransparency.png
+  artifactKey: Guid(92651f7ec1b91384f97c01c2de3c5c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Stretch_Cream_tex_AlbedoTransparency.png using Guid(92651f7ec1b91384f97c01c2de3c5c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f087c094bed5e7dda1d71acfefae8f') in 0.032400 seconds 
+  Import took 0.035315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Sunscreen_tex_MetallicSmoothness.png
+  artifactKey: Guid(e8504351f3ff5d04c98a5cf7639e2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Sunscreen_tex_MetallicSmoothness.png using Guid(e8504351f3ff5d04c98a5cf7639e2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715a22c1c38857db83cf931d4cb12067') in 0.030486 seconds 
+  Import took 0.033438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Stretch_Cream_tex_Normal.png
+  artifactKey: Guid(4f3047164f909c34db66f3e7da996c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Stretch_Cream_tex_Normal.png using Guid(4f3047164f909c34db66f3e7da996c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675cd9f8b4ee8f920c4acbe5294b418b') in 0.032492 seconds 
+  Import took 0.035104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Brilliant_Green_tex_MetallicSmoothness.png
+  artifactKey: Guid(f7887e5f73476394f9c7e3e0f25e35ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Brilliant_Green_tex_MetallicSmoothness.png using Guid(f7887e5f73476394f9c7e3e0f25e35ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a24927be6b4457c48978f1de7d17240') in 0.029016 seconds 
+  Import took 0.031893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Bandage_tex_Normal.png
+  artifactKey: Guid(3a0eb64a6db78bb4792cd91fd44317e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Bandage_tex_Normal.png using Guid(3a0eb64a6db78bb4792cd91fd44317e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f733b63822f4c9404ccf17d8dd22ca47') in 0.029094 seconds 
+  Import took 0.031831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Jar_Pills_tex_AlbedoTransparency.png
+  artifactKey: Guid(e9d3d6a1caa97ca4e97f91930fd1f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Jar_Pills_tex_AlbedoTransparency.png using Guid(e9d3d6a1caa97ca4e97f91930fd1f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b95630963c1dadc38dbb9331f9cfa1') in 0.045181 seconds 
+  Import took 0.048684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/First_Aid_Kit_tex_AlbedoTransparency.png
+  artifactKey: Guid(b8531da1e2f70394ab9d34580db77462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/First_Aid_Kit_tex_AlbedoTransparency.png using Guid(b8531da1e2f70394ab9d34580db77462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bda83ec0eb01da31b3ea6b5d21480e3') in 0.031663 seconds 
+  Import took 0.034772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Pills_tex_AlbedoTransparency.png
+  artifactKey: Guid(90021ccf4fc69d2488beded533e53c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Pills_tex_AlbedoTransparency.png using Guid(90021ccf4fc69d2488beded533e53c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c563f8c5f2615c81e19c3ce52699b0') in 0.046809 seconds 
+  Import took 0.051113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Scissors_tex_Normal.png
+  artifactKey: Guid(82bbb1b33abea554e9870101141db39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Scissors_tex_Normal.png using Guid(82bbb1b33abea554e9870101141db39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ccb13e3f5a911e1fea473b560a5b51') in 0.039715 seconds 
+  Import took 0.042812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Enema_tex_AlbedoTransparency.png
+  artifactKey: Guid(b452547ca6539354fa612d7d495a6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Enema_tex_AlbedoTransparency.png using Guid(b452547ca6539354fa612d7d495a6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4eda22e1c493408e54e307c2ee6688') in 0.031374 seconds 
+  Import took 0.034756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Disinfectant_tex_Normal.png
+  artifactKey: Guid(532212961541cac4ca99c5939d569861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Disinfectant_tex_Normal.png using Guid(532212961541cac4ca99c5939d569861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33342f57da2778df655f9a011be0b28') in 0.033076 seconds 
+  Import took 0.036440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/First_Aid_Kit_tex_Normal.png
+  artifactKey: Guid(b0ed44b2663bb5f42b4d404d8d6b2f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/First_Aid_Kit_tex_Normal.png using Guid(b0ed44b2663bb5f42b4d404d8d6b2f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b1cecea6d8311396b6fab8c67a5f6e') in 0.028566 seconds 
+  Import took 0.031276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Jar_Pills_tex_MetallicSmoothness.png
+  artifactKey: Guid(47f6eeb26e9fb584090d37f18b4a0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Jar_Pills_tex_MetallicSmoothness.png using Guid(47f6eeb26e9fb584090d37f18b4a0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d163df583dca2bb6409e5c825bbba9') in 0.045028 seconds 
+  Import took 0.048740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Scissors_tex_MetallicSmoothness.png
+  artifactKey: Guid(0838dadfb4e72f14587718e7d675a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Scissors_tex_MetallicSmoothness.png using Guid(0838dadfb4e72f14587718e7d675a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f7d60c0aaa7bf9c925a07f25d1b6b8') in 0.031078 seconds 
+  Import took 0.033710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Stretch_Cream_tex_MetallicSmoothness.png
+  artifactKey: Guid(cb3346d219ed0dc4cbbfe32607e2c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Stretch_Cream_tex_MetallicSmoothness.png using Guid(cb3346d219ed0dc4cbbfe32607e2c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df30012d47690f5ff405185e4506d32a') in 0.035161 seconds 
+  Import took 0.038328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Pills_tex_Normal.png
+  artifactKey: Guid(2c3ec1894a9d4fc49b9ed445b41ce4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Pills_tex_Normal.png using Guid(2c3ec1894a9d4fc49b9ed445b41ce4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed0848a1bdfb48e2c1ec0a4e5755d2') in 0.045588 seconds 
+  Import took 0.049401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Enema_tex_MetallicSmoothness.png
+  artifactKey: Guid(c93cde8acaff0bc4a9c8d97a9de64655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Enema_tex_MetallicSmoothness.png using Guid(c93cde8acaff0bc4a9c8d97a9de64655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38610e3ab6ca5a99826fffd4c1e5608a') in 0.028892 seconds 
+  Import took 0.031622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Patch_tex_Normal.png
+  artifactKey: Guid(b04107e7fafbc3444a14dbfca9ed209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Textures/Patch_tex_Normal.png using Guid(b04107e7fafbc3444a14dbfca9ed209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db256a1a8288abec8773bb313bdba493') in 0.031292 seconds 
+  Import took 0.034247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.563511 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs
+  artifactKey: Guid(8c6eace09011ad84e8b2c562850318e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs using Guid(8c6eace09011ad84e8b2c562850318e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7417f3aa6a45d08277b1699ff2bcca0c') in 0.023930 seconds 
+  Import took 0.026380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038627 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Bandage.prefab
+  artifactKey: Guid(2ca5c8ba2f30eab4082e8bb1a7f58031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Bandage.prefab using Guid(2ca5c8ba2f30eab4082e8bb1a7f58031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7336045efa5c52295e4fc907c8defbea') in 0.051713 seconds 
+  Import took 0.054595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Brilliant_Green.prefab
+  artifactKey: Guid(9bf3bce3247378a4db646b7e7fa06755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Brilliant_Green.prefab using Guid(9bf3bce3247378a4db646b7e7fa06755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c39a170fef4beb9fbebca22dd5c0584') in 0.030618 seconds 
+  Import took 0.033254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Enima_2.prefab
+  artifactKey: Guid(8ef4cd024f7b96e488629aa753950959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Enima_2.prefab using Guid(8ef4cd024f7b96e488629aa753950959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c786e819404eb75743b6f0961a6d6cdc') in 0.049604 seconds 
+  Import took 0.052118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Enima_1.prefab
+  artifactKey: Guid(43669928f0ec2ab45a2fc61aedaffd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Enima_1.prefab using Guid(43669928f0ec2ab45a2fc61aedaffd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b62a23e56b00d849ea634f12ed0162') in 0.029992 seconds 
+  Import took 0.032822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_1_2.prefab
+  artifactKey: Guid(24b8b0423cb33de4eba0f69e3216477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_1_2.prefab using Guid(24b8b0423cb33de4eba0f69e3216477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f165df2abee207340a70ca37689f61') in 0.079071 seconds 
+  Import took 0.085321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_2_2.prefab
+  artifactKey: Guid(b9e86ff754008db4baed813560f3ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_2_2.prefab using Guid(b9e86ff754008db4baed813560f3ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e433d142ce075b07fcdb243c5511e2') in 0.081009 seconds 
+  Import took 0.087560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_5_2.prefab
+  artifactKey: Guid(a41770c8246e4a743a8ac3d53b30aa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_5_2.prefab using Guid(a41770c8246e4a743a8ac3d53b30aa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6142f7ed546b65effed6fe27bdd353e6') in 0.092835 seconds 
+  Import took 0.099693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Patch_1_1.prefab
+  artifactKey: Guid(7fb626239c2a19044888f92ea44417c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Patch_1_1.prefab using Guid(7fb626239c2a19044888f92ea44417c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f3fc4f51edc58a04ba2464981251a8') in 0.039539 seconds 
+  Import took 0.042549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_1_1.prefab
+  artifactKey: Guid(4b5aeb95eb35c6f4abeebc0ba323e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_1_1.prefab using Guid(4b5aeb95eb35c6f4abeebc0ba323e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb7908e5adc1d3c882b51e8fdb340b0') in 0.072214 seconds 
+  Import took 0.078046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_3_1.prefab
+  artifactKey: Guid(85dabd9d403bc504780bed85ee574127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_3_1.prefab using Guid(85dabd9d403bc504780bed85ee574127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa459f9fc97b21f7e7ae000c3c264a5') in 0.072234 seconds 
+  Import took 0.078019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_3_3.prefab
+  artifactKey: Guid(d43d46f5c18c49546b9d25d9d52c30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_3_3.prefab using Guid(d43d46f5c18c49546b9d25d9d52c30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741a17ea794629f60f6eb8e247083cc6') in 0.071294 seconds 
+  Import took 0.076906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_5_1.prefab
+  artifactKey: Guid(5e9fa2f1e18d3b8459099dd7825dd7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_5_1.prefab using Guid(5e9fa2f1e18d3b8459099dd7825dd7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9389607b6b1c84b838d8ee3059b6b93') in 0.069376 seconds 
+  Import took 0.075009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_4_2.prefab
+  artifactKey: Guid(39e6dafb46a9d294c9ed8906b3af1f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_4_2.prefab using Guid(39e6dafb46a9d294c9ed8906b3af1f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb63910452af0da5db2316533f9373c') in 0.081333 seconds 
+  Import took 0.087032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_2_1.prefab
+  artifactKey: Guid(1485a8e4739dac14e897e399f1ac93f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_2_1.prefab using Guid(1485a8e4739dac14e897e399f1ac93f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ed9ea81960b19fb16517d40a31985f') in 0.077834 seconds 
+  Import took 0.083670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_1_2.prefab
+  artifactKey: Guid(573f0c6b4ca8b874a81b6296e810c387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_1_2.prefab using Guid(573f0c6b4ca8b874a81b6296e810c387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea3551bc3e1c844949a58005b13ba0a') in 0.078291 seconds 
+  Import took 0.084505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/First_Aid_Kit.prefab
+  artifactKey: Guid(b9a94eafb522c2a479caa48d0e1c3986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/First_Aid_Kit.prefab using Guid(b9a94eafb522c2a479caa48d0e1c3986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de322b5e126647e30c2394afa0fc92e9') in 0.030355 seconds 
+  Import took 0.033299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_4_1.prefab
+  artifactKey: Guid(cbe919f6cee9a044d8f440b9df1b4444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_4_1.prefab using Guid(cbe919f6cee9a044d8f440b9df1b4444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7269aca75abc08ad952499d5ef0ae68') in 0.077264 seconds 
+  Import took 0.083580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_4_2.prefab
+  artifactKey: Guid(a250553f771f0a34491c5f6922f8ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_4_2.prefab using Guid(a250553f771f0a34491c5f6922f8ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e8dfb61d0c7073bb10626b4a2e0ca9') in 0.076922 seconds 
+  Import took 0.085712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Stretch_Cream.prefab
+  artifactKey: Guid(27896ff3d45b84c45bacfd05b23e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Stretch_Cream.prefab using Guid(27896ff3d45b84c45bacfd05b23e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a41c94b5275841dfac9ce17e14bd248') in 0.055663 seconds 
+  Import took 0.059112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Sunscreen.prefab
+  artifactKey: Guid(ca4196ec6711f3c40908ead17cc8aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Sunscreen.prefab using Guid(ca4196ec6711f3c40908ead17cc8aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd5b615af3f4ef43dfd170ce5da5bf5') in 0.051628 seconds 
+  Import took 0.056404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_3_1.prefab
+  artifactKey: Guid(2e5e60a537423d94f9b7f0bb1b0f35fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_3_1.prefab using Guid(2e5e60a537423d94f9b7f0bb1b0f35fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b053c52de48980998a88dbeb9731b90d') in 0.089604 seconds 
+  Import took 0.097144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_2_3.prefab
+  artifactKey: Guid(67de95b5265ea9b43a167bb4c3b1cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_2_3.prefab using Guid(67de95b5265ea9b43a167bb4c3b1cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2bb1998d824c8ad53a5963996fe414') in 0.077522 seconds 
+  Import took 0.085671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Scissors.prefab
+  artifactKey: Guid(c85824b2a9c841f47a877e0b0fcb3797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Scissors.prefab using Guid(c85824b2a9c841f47a877e0b0fcb3797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f887b314de62c3c19d9816e60725f970') in 0.041745 seconds 
+  Import took 0.045921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_2_1.prefab
+  artifactKey: Guid(fb7498cbe6c57da40b2fb92c90247965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_2_1.prefab using Guid(fb7498cbe6c57da40b2fb92c90247965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e770387faa88721e2cb5a1ee844767') in 0.073104 seconds 
+  Import took 0.079402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_3_2.prefab
+  artifactKey: Guid(b0fd9b76120f5bf4c844be4786a44252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_3_2.prefab using Guid(b0fd9b76120f5bf4c844be4786a44252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2df4c20290fbb75207431d48edec00') in 0.075974 seconds 
+  Import took 0.082351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_4_3.prefab
+  artifactKey: Guid(9be62dcd0888d0a4cba169555cc423f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_4_3.prefab using Guid(9be62dcd0888d0a4cba169555cc423f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1abf50fe5bfa93f04ff67954006c523') in 0.071866 seconds 
+  Import took 0.078297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_4_1.prefab
+  artifactKey: Guid(0c4e119a06cdf19438ac7e661ea28aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_4_1.prefab using Guid(0c4e119a06cdf19438ac7e661ea28aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40737661df87fdadbb09d6252165f89') in 0.031852 seconds 
+  Import took 0.034826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_1_1.prefab
+  artifactKey: Guid(bb146b953abe44246bce6382fd32f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_1_1.prefab using Guid(bb146b953abe44246bce6382fd32f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496b44fa1a5a34a41b6e38a7cb1b610f') in 0.073385 seconds 
+  Import took 0.079768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_1_3.prefab
+  artifactKey: Guid(73ebf21bcbd576844ab92643b94d160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_1_3.prefab using Guid(73ebf21bcbd576844ab92643b94d160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146f1a4433e9637af3a1ce0e303b571e') in 0.072879 seconds 
+  Import took 0.079464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_5_3.prefab
+  artifactKey: Guid(f9f43bf45e17a5248b8ec13eed368edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_5_3.prefab using Guid(f9f43bf45e17a5248b8ec13eed368edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12138cf15a23325f265b0651fcd951e8') in 0.073378 seconds 
+  Import took 0.080148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_5_2.prefab
+  artifactKey: Guid(c8605b4eccaf67746aa2733ae87d96ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_5_2.prefab using Guid(c8605b4eccaf67746aa2733ae87d96ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f16c92a89f9c39095630d9ac89459c') in 0.073048 seconds 
+  Import took 0.079303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Disinfectant.prefab
+  artifactKey: Guid(124bb148cb7aacb40869b9ce588ff9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Disinfectant.prefab using Guid(124bb148cb7aacb40869b9ce588ff9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c2127b4cce1e21260618065af18dc4') in 0.040325 seconds 
+  Import took 0.043776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_3_2.prefab
+  artifactKey: Guid(c34e696bbb56a5947b6fbae360686e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_3_2.prefab using Guid(c34e696bbb56a5947b6fbae360686e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bf13f6864b0b197aa3d744b4fa43a5') in 0.032538 seconds 
+  Import took 0.035682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Scissors_2.prefab
+  artifactKey: Guid(d3000aec180957147bdc602d93a2d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Scissors_2.prefab using Guid(d3000aec180957147bdc602d93a2d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416aa653717111640da4cebed9a86939') in 0.040533 seconds 
+  Import took 0.043858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_5_1.prefab
+  artifactKey: Guid(ba47526bf3af7ca40b027c38c65049c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Jar_Pills_5_1.prefab using Guid(ba47526bf3af7ca40b027c38c65049c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096941726f94202768be3a8e476bc852') in 0.072473 seconds 
+  Import took 0.078515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Patch_1_2.prefab
+  artifactKey: Guid(872609e4f065854459634fa3eb46d112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Patch_1_2.prefab using Guid(872609e4f065854459634fa3eb46d112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40a61b142dfeb890e577b6369900fa5') in 0.041533 seconds 
+  Import took 0.044809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_2_2.prefab
+  artifactKey: Guid(96550b81127d0ff429a74e104ed06212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medicine_chest _Free_pharmacy_set/Models/Prefabs/Pills_2_2.prefab using Guid(96550b81127d0ff429a74e104ed06212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b48ff46ffd92c75b81b9af060b0327a') in 0.079724 seconds 
+  Import took 0.086256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.351197 seconds.
+  path: Assets/Hospital Room
+  artifactKey: Guid(829dec2dadb514b6ba504fa28e5b7b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room using Guid(829dec2dadb514b6ba504fa28e5b7b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0665a1e490a0f5346676ee13befce6') in 0.023269 seconds 
+  Import took 0.025682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.128522 seconds.
+  path: Assets/Hospital Room/Prefabs
+  artifactKey: Guid(4669903c24de6774cb6b8301969ecb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs using Guid(4669903c24de6774cb6b8301969ecb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f334dd7716687487821638b5544c36f') in 0.021454 seconds 
+  Import took 0.024377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063037 seconds.
+  path: Assets/Hospital Room/Prefabs/Advertisement.prefab
+  artifactKey: Guid(849fa4bdea0b04b4080022e179b0afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Advertisement.prefab using Guid(849fa4bdea0b04b4080022e179b0afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5928bedbb4c4d7736c3c7ad4000f6996') in 0.120077 seconds 
+  Import took 0.122720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Hospital Room/Prefabs/Tv.prefab
+  artifactKey: Guid(51beba292b1500445a554f5da2965d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Tv.prefab using Guid(51beba292b1500445a554f5da2965d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f502e83bef7eb500d1f37bcb3599f83') in 0.034931 seconds 
+  Import took 0.037420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Hospital Room/Prefabs/Pills.prefab
+  artifactKey: Guid(e243cb26fc908db499bd76f2ad789739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Pills.prefab using Guid(e243cb26fc908db499bd76f2ad789739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277d81242fd6457b75ab9e181b9ecd3d') in 0.033754 seconds 
+  Import took 0.036950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Hospital Room/Prefabs/Chair.prefab
+  artifactKey: Guid(877ecc8ff80faa849a18508fee99a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Chair.prefab using Guid(877ecc8ff80faa849a18508fee99a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4897d258374f4a923182abbf6e9b1cee') in 0.129042 seconds 
+  Import took 0.131790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Hospital Room/Prefabs/Clock.prefab
+  artifactKey: Guid(8459144a04ca5b94cae7dfddd46c05af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Clock.prefab using Guid(8459144a04ca5b94cae7dfddd46c05af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6660b0b1db620a80c7c47604c11bbc71') in 0.031783 seconds 
+  Import took 0.034318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Hospital Room/Prefabs/Hospital map.prefab
+  artifactKey: Guid(d5eac6b8dbc053b4e957429c9e18682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Hospital map.prefab using Guid(d5eac6b8dbc053b4e957429c9e18682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eac3b6b39d52809497a9f9d8b545a43') in 0.029725 seconds 
+  Import took 0.032322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Hospital Room/Prefabs/Window.prefab
+  artifactKey: Guid(d779eb36a76d97e41ac76260ba639181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Window.prefab using Guid(d779eb36a76d97e41ac76260ba639181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff108d01ea4e89a453791cf82e627be0') in 0.032375 seconds 
+  Import took 0.034747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Hospital Room/Prefabs/Book.prefab
+  artifactKey: Guid(fe8176aa40c72614fa21eec75229cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Book.prefab using Guid(fe8176aa40c72614fa21eec75229cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72e82fe4b678174c65d3ba160bfc891') in 0.033167 seconds 
+  Import took 0.035758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Hospital Room/Prefabs/Door 2.prefab
+  artifactKey: Guid(aefe586dcf46271418406dc106ac8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Door 2.prefab using Guid(aefe586dcf46271418406dc106ac8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d354aea9fbe1da12020bc80af15e968') in 0.044536 seconds 
+  Import took 0.047140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Hospital Room/Prefabs/Structure.prefab
+  artifactKey: Guid(9eed6d07aaee84b448b61a7e42f9cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Structure.prefab using Guid(9eed6d07aaee84b448b61a7e42f9cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb22d1ea6369bb23ab5418bed5a1e9d9') in 0.045604 seconds 
+  Import took 0.048613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Hospital Room/Prefabs/Flowers.prefab
+  artifactKey: Guid(7769e68d8a8143b4296e7b055dc35306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Flowers.prefab using Guid(7769e68d8a8143b4296e7b055dc35306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4428a3147d46763092e1f9bc88f0e9') in 0.127052 seconds 
+  Import took 0.129439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Hospital Room/Prefabs/Grating.prefab
+  artifactKey: Guid(4db618c02455fed47b97e0944ece83d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Grating.prefab using Guid(4db618c02455fed47b97e0944ece83d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cefd7191391e9cb501d41c592a67edf') in 0.034586 seconds 
+  Import took 0.037342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Hospital Room/Prefabs/Hospital furniture 1.prefab
+  artifactKey: Guid(f873da293bd2ab248b418329fe95661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Hospital furniture 1.prefab using Guid(f873da293bd2ab248b418329fe95661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe06031ffec4c5775a6dc068de64ab1') in 0.032492 seconds 
+  Import took 0.035040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Hospital Room/Prefabs/Door 1.prefab
+  artifactKey: Guid(1c797438145d2f749bbd486eff3bd790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Door 1.prefab using Guid(1c797438145d2f749bbd486eff3bd790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86249eefecb2c5a140589eb2ba30e82') in 0.028623 seconds 
+  Import took 0.031291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Hospital Room/Prefabs/Wall 2.prefab
+  artifactKey: Guid(f5d6d4fd44fd2834f804af80278df176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Wall 2.prefab using Guid(f5d6d4fd44fd2834f804af80278df176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e7b54e8964195779c57e71bb6bb65e') in 0.032101 seconds 
+  Import took 0.034486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Hospital Room/Prefabs/Hand sanitizier.prefab
+  artifactKey: Guid(131953815614744478cf2badc6101cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Hand sanitizier.prefab using Guid(131953815614744478cf2badc6101cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b4892a3ae80ce72046e48368ca7744') in 0.032040 seconds 
+  Import took 0.034428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Hospital Room/Prefabs/Bath wall.prefab
+  artifactKey: Guid(213e82b02dc3cad46a261c39310d5f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Bath wall.prefab using Guid(213e82b02dc3cad46a261c39310d5f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3014fbef5d606d06c2637ed15554e981') in 0.030298 seconds 
+  Import took 0.032659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Hospital Room/Prefabs/Medicine.prefab
+  artifactKey: Guid(c032fc62ede749f4c9a21d205b4b781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Medicine.prefab using Guid(c032fc62ede749f4c9a21d205b4b781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb252fb7bb24f84ff52dde737b51a6a8') in 0.031140 seconds 
+  Import took 0.033597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Hospital Room/Prefabs/Apple.prefab
+  artifactKey: Guid(388bbc18b29a4ff4c981c09ed908a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Apple.prefab using Guid(388bbc18b29a4ff4c981c09ed908a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffdae97349c4374cf9062aa2f6bb74f') in 0.032560 seconds 
+  Import took 0.035168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Hospital Room/Prefabs/Curtain rod.prefab
+  artifactKey: Guid(947cd1f9c40146f48b7ae6b072d555db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Curtain rod.prefab using Guid(947cd1f9c40146f48b7ae6b072d555db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13bb355dd7a466988cb68ba6aeb483a') in 0.029716 seconds 
+  Import took 0.032377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Hospital Room/Prefabs/Room number.prefab
+  artifactKey: Guid(38a9457e5fbd7324fa63f43fed85e762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Room number.prefab using Guid(38a9457e5fbd7324fa63f43fed85e762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3277922c51626765bca9a0f37f1ab435') in 0.029930 seconds 
+  Import took 0.033332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Hospital Room/Prefabs/Blood bag.prefab
+  artifactKey: Guid(62a39462225f55449924d1209e641d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Blood bag.prefab using Guid(62a39462225f55449924d1209e641d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174932ad30061dc77e91748bcc967ec4') in 0.033579 seconds 
+  Import took 0.036065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Hospital Room/Prefabs/Bottle.prefab
+  artifactKey: Guid(10f04e8a93d403b4f9303218b106e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Bottle.prefab using Guid(10f04e8a93d403b4f9303218b106e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e6f91ab491313facac3c9c2a254671') in 0.031259 seconds 
+  Import took 0.033732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Hospital Room/Prefabs/Cart hospital.prefab
+  artifactKey: Guid(a5e4fcf882dbfb341a657c8cd5bf1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Cart hospital.prefab using Guid(a5e4fcf882dbfb341a657c8cd5bf1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f757716511e2fe07ba86333cda3131cc') in 0.029640 seconds 
+  Import took 0.032086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Hospital Room/Prefabs/Switch 2.prefab
+  artifactKey: Guid(dad96cc147ef3e4498a9504fe83691b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Switch 2.prefab using Guid(dad96cc147ef3e4498a9504fe83691b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4882e43bb4299758ec287da013fac1c7') in 0.029377 seconds 
+  Import took 0.031677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Hospital Room/Prefabs/Ceiling lamp.prefab
+  artifactKey: Guid(b676aacff6e042449aae15c1b3b78d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Ceiling lamp.prefab using Guid(b676aacff6e042449aae15c1b3b78d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548e14811c61ced2598d00f8392e8eaa') in 0.029794 seconds 
+  Import took 0.032251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Hospital Room/Prefabs/Jar.prefab
+  artifactKey: Guid(459144693ed264f4e9a8cf0bb70485de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Jar.prefab using Guid(459144693ed264f4e9a8cf0bb70485de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576d3ab427b8708e85a1a8a07971b589') in 0.031658 seconds 
+  Import took 0.034573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Hospital Room/Prefabs/Spoon.prefab
+  artifactKey: Guid(915d5580ed437774ba634930f126a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Spoon.prefab using Guid(915d5580ed437774ba634930f126a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f1a97e0e22d76c92aeee3e255c0f8a') in 0.029885 seconds 
+  Import took 0.032169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Hospital Room/Prefabs/Wall lamp.prefab
+  artifactKey: Guid(772997dd5370e594c901f849dc7d9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Wall lamp.prefab using Guid(772997dd5370e594c901f849dc7d9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64182db1734def734dbe27e87b3b1681') in 0.029460 seconds 
+  Import took 0.032024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Hospital Room/Prefabs/Building.prefab
+  artifactKey: Guid(e144076df9190de4dbfae4439a4f8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Building.prefab using Guid(e144076df9190de4dbfae4439a4f8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4451825efebb52cdc21cb46f9c132a') in 0.047026 seconds 
+  Import took 0.049554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Hospital Room/Prefabs/Glass.prefab
+  artifactKey: Guid(7fabda9f291934a4e98956d6c4907995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Glass.prefab using Guid(7fabda9f291934a4e98956d6c4907995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e67b4501edf13089dc938efc3663fcc') in 0.028984 seconds 
+  Import took 0.032085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Hospital Room/Prefabs/Door wall.prefab
+  artifactKey: Guid(c26e5e269b00392438540d063caf09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Door wall.prefab using Guid(c26e5e269b00392438540d063caf09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9724cd8af64f081634985960a7a9a0b') in 0.028851 seconds 
+  Import took 0.031249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Hospital Room/Prefabs/Instructions.prefab
+  artifactKey: Guid(7104a9ffe4b2d0c46b92286d40b3c52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Instructions.prefab using Guid(7104a9ffe4b2d0c46b92286d40b3c52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ce220b68478976fc13ee702059fe2') in 0.029008 seconds 
+  Import took 0.032211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Hospital Room/Prefabs/Ceiling.prefab
+  artifactKey: Guid(9640cc1184c65b840a8d921e7cfdf237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Ceiling.prefab using Guid(9640cc1184c65b840a8d921e7cfdf237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcbda862bdb3090b3aa94ac1e3477e5') in 0.033614 seconds 
+  Import took 0.036135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Hospital Room/Prefabs/Bed.prefab
+  artifactKey: Guid(a45708abc5ed975458c6321d5f28e8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Bed.prefab using Guid(a45708abc5ed975458c6321d5f28e8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42b88b23d1fa6ea2875d0deb622fb28') in 0.032352 seconds 
+  Import took 0.034676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Hospital Room/Prefabs/Hospital trolley.prefab
+  artifactKey: Guid(4eafdfafe6492d6498c9a5887dbe36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Hospital trolley.prefab using Guid(4eafdfafe6492d6498c9a5887dbe36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcffee5a1c029055385196b861dd14a1') in 0.031036 seconds 
+  Import took 0.033667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Hospital Room/Prefabs/Trash can.prefab
+  artifactKey: Guid(04589000bf6d9914ca2c21ea00c8b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Trash can.prefab using Guid(04589000bf6d9914ca2c21ea00c8b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969d7cfc2041dac0dcddcb06c18c599a') in 0.033900 seconds 
+  Import took 0.036836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Hospital Room/Prefabs/Curtains.prefab
+  artifactKey: Guid(046cf3aab72dc0c46b8696b0878953e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Curtains.prefab using Guid(046cf3aab72dc0c46b8696b0878953e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439c28e6c78b56563e7b159f420389cd') in 0.034582 seconds 
+  Import took 0.038257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Hospital Room/Prefabs/Towel.prefab
+  artifactKey: Guid(b145c1b505dbe2940bc8aeec8c124de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Towel.prefab using Guid(b145c1b505dbe2940bc8aeec8c124de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086640cd4379c8accf910ee60104791c') in 0.035207 seconds 
+  Import took 0.037880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Hospital Room/Prefabs/Wall 1.prefab
+  artifactKey: Guid(efa23fa8c8618184399f50d86a4f7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Wall 1.prefab using Guid(efa23fa8c8618184399f50d86a4f7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f60b20100b7b910d0bfd4768dff66cc') in 0.032753 seconds 
+  Import took 0.035539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Hospital Room/Prefabs/Pillow.prefab
+  artifactKey: Guid(1a630c1668d50a44eb7c7c2808fa8581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Pillow.prefab using Guid(1a630c1668d50a44eb7c7c2808fa8581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c695c4d7477ee18f14afda81a0eed1') in 0.034089 seconds 
+  Import took 0.036563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Hospital Room/Prefabs/Iv pole.prefab
+  artifactKey: Guid(09fd11737ba08ff4ca3076e51cb315cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Iv pole.prefab using Guid(09fd11737ba08ff4ca3076e51cb315cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6071328dc3f57d0c53da9215fb66b619') in 0.031882 seconds 
+  Import took 0.034392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Hospital Room/Prefabs/Medicine 2.prefab
+  artifactKey: Guid(22df75c0d2aa0d04b972cdf906ae2b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Medicine 2.prefab using Guid(22df75c0d2aa0d04b972cdf906ae2b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457704792e494e937b88061e239af646') in 0.045642 seconds 
+  Import took 0.048081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Hospital Room/Prefabs/Supplies.prefab
+  artifactKey: Guid(a4bd55b261a920449b8dbfdc9b99dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Supplies.prefab using Guid(a4bd55b261a920449b8dbfdc9b99dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a18e16a4d3b9c1a9eec93dd5d7076c') in 0.031387 seconds 
+  Import took 0.033704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Hospital Room/Prefabs/Clipboard.prefab
+  artifactKey: Guid(5de1d2068167189489bd6419129786f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Clipboard.prefab using Guid(5de1d2068167189489bd6419129786f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c523a6b26e7f9f2c6e77c64789c91') in 0.031653 seconds 
+  Import took 0.034350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Hospital Room/Prefabs/Switch.prefab
+  artifactKey: Guid(26659fb6bb74c8d44974c5298eac6c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital Room/Prefabs/Switch.prefab using Guid(26659fb6bb74c8d44974c5298eac6c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c214fc5d668068ad187c3abb3b75c1f') in 0.028434 seconds 
+  Import took 0.030892 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 10.09 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.006627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.4 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2056.
-Total: 4.400400 ms (FindLiveObjects: 0.260200 ms CreateObjectMapping: 0.077700 ms MarkObjects: 3.957600 ms  DeleteObjects: 0.103400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 2.912300 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.560200 ms  DeleteObjects: 0.089900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -169,18 +1749,351 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.489848 seconds.
-  path: Assets/moveObj.cs
-  artifactKey: Guid(6c528f7fdbc7e674ebe324a7744eef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moveObj.cs using Guid(6c528f7fdbc7e674ebe324a7744eef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7e2380c430bcb4dc1da3e16d504ea5') in 0.032365 seconds 
-  Import took 0.036686 seconds .
+  Time since last request: 630.364631 seconds.
+  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773d102b89c6783fbe7aac8d45bf2ac') in 0.125939 seconds 
+  Import took 0.129330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.472525 seconds.
-  path: Assets/bools.cs
-  artifactKey: Guid(9eda3d9ee7d044646827819a64d7a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bools.cs using Guid(9eda3d9ee7d044646827819a64d7a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20985363f89ad4c6fbe45607915c61a7') in 0.027837 seconds 
-  Import took 0.032915 seconds .
+  Time since last request: 112.160848 seconds.
+  path: Assets/Oro/Characters/Oro/meshes/Oro.fbx
+  artifactKey: Guid(da6ffc281ea30fe4699edaba78e64f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Characters/Oro/meshes/Oro.fbx using Guid(da6ffc281ea30fe4699edaba78e64f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3194414be2db822437dd5a7f2790eb0') in 0.113042 seconds 
+  Import took 0.116610 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 31.152125 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac51381b3ba6ed7431e09abd9936992') in 0.032524 seconds 
+  Import took 0.035596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+  artifactKey: Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx using Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100529d6802472014ad2b723ab439c21') in 0.033859 seconds 
+  Import took 0.037306 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (915ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.540600 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.057200 ms MarkObjects: 2.222400 ms  DeleteObjects: 0.082400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (713ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 2.734700 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.425200 ms  DeleteObjects: 0.081800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 378.497385 seconds.
+  path: Assets/Robot Kyle/Animations/mixamo.com.anim
+  artifactKey: Guid(732aedbdd3c56f04cae175fb75319ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Animations/mixamo.com.anim using Guid(732aedbdd3c56f04cae175fb75319ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14781e6a2f399b0bb583e08e48f8a5d') in 0.060602 seconds 
+  Import took 0.063610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.447371 seconds.
+  path: Assets/Oro/Animations/retargetController.controller
+  artifactKey: Guid(accea0561c644d44397970e34aead61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Animations/retargetController.controller using Guid(accea0561c644d44397970e34aead61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4c56315289c0c05c831f723c60a6be') in 0.023401 seconds 
+  Import took 0.026190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.864919 seconds.
+  path: Assets/Oro/Animations/walk.anim
+  artifactKey: Guid(732aedbdd3c56f04cae175fb75319ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Animations/walk.anim using Guid(732aedbdd3c56f04cae175fb75319ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253b89fde624c2e2e89a904e8bf590c0') in 0.045852 seconds 
+  Import took 0.048813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 2.709500 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.384900 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.602135 seconds.
+  path: Assets/Oro/Animations/walk.anim
+  artifactKey: Guid(732aedbdd3c56f04cae175fb75319ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro/Animations/walk.anim using Guid(732aedbdd3c56f04cae175fb75319ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8cc0e82670b1daf606582f2ab7edea') in 0.053236 seconds 
+  Import took 0.056435 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 3.563100 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.065700 ms MarkObjects: 3.139400 ms  DeleteObjects: 0.141300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1579 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 2.589900 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.065700 ms MarkObjects: 2.269600 ms  DeleteObjects: 0.084300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
