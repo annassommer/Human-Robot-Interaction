@@ -1,0 +1,1062 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1466; Version 2009; 64bit' Language: 'de' Physical Memory: 16103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity Editors\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-Interaction/My project
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+65075
+Successfully changed project path to: C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-Interaction/My project
+C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-Interaction/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 931.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fkock/Documents/Master/Semester 2/Human Robot Interaction/Human-Robot-Interaction/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T500 (ID=0x1fbb)
+    Vendor:   
+    VRAM:     3968 MB
+    Driver:   30.0.14.7242
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity Editors/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.036644 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 428.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11656ms)
+		BeginReloadAssembly (1217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (4277ms)
+			LoadAssemblies (1186ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1554ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (221ms)
+			SetupLoadedEditorAssemblies (1616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (429ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (790ms)
+				ProcessInitializeOnLoadMethodAttributes (254ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.036433 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87827CB0 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D637C20 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C329620 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C329620 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C346020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D64D430 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C346020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D64D430 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C66B230 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C1ABC20 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C39A020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C691020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6965ms)
+		BeginReloadAssembly (1084ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (5477ms)
+			LoadAssemblies (557ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1831ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (314ms)
+			SetupLoadedEditorAssemblies (2121ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (571ms)
+				ProcessInitializeOnLoadAttributes (1381ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (1ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2057.
+Total: 21.351800 ms (FindLiveObjects: 0.811100 ms CreateObjectMapping: 0.377200 ms MarkObjects: 19.630400 ms  DeleteObjects: 0.527300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e30bfe812797f651ed431a1184e94a1') in 0.322083 seconds 
+  Import took 0.344024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 760.698986 seconds.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b088c76fcbf89faa6e82516b583f1e0a') in 0.183150 seconds 
+  Import took 0.236913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.325235 seconds.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84532d58e40ea9116d56d81f40ad6639') in 0.203681 seconds 
+  Import took 0.222927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.831888 seconds.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27145257db60282d9da5a601c78e5232') in 0.221226 seconds 
+  Import took 0.240702 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039511 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8FC89700 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C9F0010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87703940 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C346020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C9F0010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F880CF010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87703940 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87DAA440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C39A020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F9139DF60 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.999 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10008ms)
+		BeginReloadAssembly (1193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (88ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (428ms)
+		EndReloadAssembly (8029ms)
+			LoadAssemblies (852ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3125ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (429ms)
+			SetupLoadedEditorAssemblies (2655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (790ms)
+				ProcessInitializeOnLoadAttributes (1702ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (55ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 23.111300 ms (FindLiveObjects: 1.038300 ms CreateObjectMapping: 0.262700 ms MarkObjects: 21.015000 ms  DeleteObjects: 0.787200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1055.772136 seconds.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0da9c517f9d8da05cc2a9d68bedb1a8') in 0.227676 seconds 
+  Import took 0.251177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.057538 seconds.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f197557446c7a4ceb6ec17c03749ccf') in 0.267931 seconds 
+  Import took 0.304301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.758799 seconds.
+  path: Assets/SoundManager.cs
+  artifactKey: Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundManager.cs using Guid(d958aa68beef27b46aa358d17e9f9b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ea1845a34d78faeac5a83127788339') in 0.328673 seconds 
+  Import took 0.359035 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027236 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90DD2220 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8F57B030 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90E0F9E0 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91205090 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90F7F050 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F880CF010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8CFE8020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8F8A8030 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91105360 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C63D020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8FE11010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7199ms)
+		BeginReloadAssembly (765ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (262ms)
+		EndReloadAssembly (5940ms)
+			LoadAssemblies (678ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2164ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (241ms)
+			SetupLoadedEditorAssemblies (2211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (585ms)
+				ProcessInitializeOnLoadAttributes (1490ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2061.
+Total: 11.472400 ms (FindLiveObjects: 0.825000 ms CreateObjectMapping: 0.315500 ms MarkObjects: 9.755400 ms  DeleteObjects: 0.570800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1287.597735 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(3f0960795d9824d428b8eddb27283527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(3f0960795d9824d428b8eddb27283527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd4bdd407334b09ac507f5af60dd39') in 0.116869 seconds 
+  Import took 0.130430 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020674 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F91105360 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F908FCE00 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91173020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90F7F050 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8DF0CCB0 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F910F15B0 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F880CF010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90F7F050 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90A72430 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90988300 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91105360 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90C09010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8580ms)
+		BeginReloadAssembly (1036ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (74ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (322ms)
+		EndReloadAssembly (6856ms)
+			LoadAssemblies (832ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2470ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (286ms)
+			SetupLoadedEditorAssemblies (2562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (718ms)
+				ProcessInitializeOnLoadAttributes (1665ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (50ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2063.
+Total: 25.963600 ms (FindLiveObjects: 1.089800 ms CreateObjectMapping: 0.443400 ms MarkObjects: 23.620200 ms  DeleteObjects: 0.798000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 703.423006 seconds.
+  path: Assets/Door open and close.mp3
+  artifactKey: Guid(773c2fc8faff2a24aa34e9012b660f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door open and close.mp3 using Guid(773c2fc8faff2a24aa34e9012b660f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0ddd01cbe1d58a9d4852f32b104c0b') in 0.408796 seconds 
+  Import took 0.419845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/OutsideCity.mp3
+  artifactKey: Guid(1a5abaefc82d8604f8c012e4c78a992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutsideCity.mp3 using Guid(1a5abaefc82d8604f8c012e4c78a992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bcdc50dde8f9965fa2ec3142bf8f34') in 0.115990 seconds 
+  Import took 0.126493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Hospital.mp3
+  artifactKey: Guid(3e83f791262d27a479c250dae7f261d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hospital.mp3 using Guid(3e83f791262d27a479c250dae7f261d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5e8bc62eb40a329d414de6515fc63') in 0.104736 seconds 
+  Import took 0.117102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.962877 seconds.
+  path: Assets/Sounds/Hospital.mp3
+  artifactKey: Guid(df376aaf47ca18349a2a9d5142baaf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hospital.mp3 using Guid(df376aaf47ca18349a2a9d5142baaf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fa6e707a5b5ec890d46aba133161fe') in 0.078417 seconds 
+  Import took 0.087402 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031296 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90FB0020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90DB8550 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F92412910 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F92341080 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91CD5020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F880CF010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8F438250 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87DAA440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90B7E010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F9202F030 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.165 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13168ms)
+		BeginReloadAssembly (2353ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (869ms)
+		EndReloadAssembly (8951ms)
+			LoadAssemblies (1513ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (4390ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (339ms)
+			SetupLoadedEditorAssemblies (2241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (688ms)
+				ProcessInitializeOnLoadAttributes (1397ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 16.217000 ms (FindLiveObjects: 0.761900 ms CreateObjectMapping: 0.373700 ms MarkObjects: 14.489300 ms  DeleteObjects: 0.585700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 306.351192 seconds.
+  path: Assets/Sounds/Footstep.mp3
+  artifactKey: Guid(f85314cd6d5df5342a0a1b34485bcb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Footstep.mp3 using Guid(f85314cd6d5df5342a0a1b34485bcb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd900fa39c8bb7b0a3a21eff3eab9f56') in 0.767890 seconds 
+  Import took 0.805976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001047 seconds.
+  path: Assets/Sounds/SanitizeHands.mp3
+  artifactKey: Guid(7323ac841b0dbcb408e3d2e6a2eaa04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SanitizeHands.mp3 using Guid(7323ac841b0dbcb408e3d2e6a2eaa04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e58cad84dba2cb4b08c86b81f536bf') in 0.434334 seconds 
+  Import took 0.471731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.871898 seconds.
+  path: Assets/Sounds/Open and Close Window.mp3
+  artifactKey: Guid(246794dd559634b41b6bab255db22731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Open and Close Window.mp3 using Guid(246794dd559634b41b6bab255db22731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7877953b28d5e64a5d0f6631063adc') in 0.146505 seconds 
+  Import took 0.161056 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90DD2220 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87F33030 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90959010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019FB3533020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F913AF010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F880CF010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8FD97060 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87711970 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C39A020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F924E6010 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8656ms)
+		BeginReloadAssembly (1545ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (204ms)
+		EndReloadAssembly (5326ms)
+			LoadAssemblies (1551ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1932ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (218ms)
+			SetupLoadedEditorAssemblies (1913ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (552ms)
+				ProcessInitializeOnLoadAttributes (1229ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 15.123800 ms (FindLiveObjects: 0.647500 ms CreateObjectMapping: 0.243000 ms MarkObjects: 13.608400 ms  DeleteObjects: 0.618400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16215.266122 seconds.
+  path: Assets/Sounds/Oro
+  artifactKey: Guid(a3b754b8756dfb044b61a6764ecdd1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Oro using Guid(a3b754b8756dfb044b61a6764ecdd1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993a7a362d5497f2105a7468cc5b229d') in 0.029651 seconds 
+  Import took 0.034140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.134220 seconds.
+  path: Assets/Sounds/Kyle
+  artifactKey: Guid(e7578ae558f9ec942ba6192df9a625e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Kyle using Guid(e7578ae558f9ec942ba6192df9a625e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629b0634a4c82e58f80599f7610580c8') in 0.025771 seconds 
+  Import took 0.029033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1168.668543 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(b1c7adb58c7867946816355d254f1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(b1c7adb58c7867946816355d254f1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ebf6485fb8a1553f366c695a3196d1') in 0.033846 seconds 
+  Import took 0.042736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.340247 seconds.
+  path: Assets/Oro
+  artifactKey: Guid(201eb1f960a596f42ad5143f8d370c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oro using Guid(201eb1f960a596f42ad5143f8d370c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9caeec11fef95a80a2e263b08b10eb5') in 0.034259 seconds 
+  Import took 0.040809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.741343 seconds.
+  path: Assets/Resources/1.mp3
+  artifactKey: Guid(85f900bec4a5a2449bcee5db7747be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/1.mp3 using Guid(85f900bec4a5a2449bcee5db7747be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921af83305c9db49ffbd80dce3a0d64b') in 0.436506 seconds 
+  Import took 0.451035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Resources/3_oro.mp3
+  artifactKey: Guid(dda35fe6f2b17c049a3834353459265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3_oro.mp3 using Guid(dda35fe6f2b17c049a3834353459265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63dc7b5eb05b867939cc1a0ca5340ce') in 0.167067 seconds 
+  Import took 0.178623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001010 seconds.
+  path: Assets/Resources/3.mp3
+  artifactKey: Guid(e24b34563fd420e4fb810d4f8955d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3.mp3 using Guid(e24b34563fd420e4fb810d4f8955d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011e2dcd66a970916d9ed2640abf3ebe') in 0.178370 seconds 
+  Import took 0.193718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001028 seconds.
+  path: Assets/Resources/1_kyle.mp3
+  artifactKey: Guid(deb6ce9650cd51b4c839b71ad02e9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/1_kyle.mp3 using Guid(deb6ce9650cd51b4c839b71ad02e9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffd005c3645721deb1c06914080fd85') in 0.189499 seconds 
+  Import took 0.204901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000841 seconds.
+  path: Assets/Resources/2_oro.mp3
+  artifactKey: Guid(5a390f690a7bfd04c878f236f2b0affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2_oro.mp3 using Guid(5a390f690a7bfd04c878f236f2b0affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8120a1f3ea74174b636292208167c5') in 0.173830 seconds 
+  Import took 0.185111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/Resources/5_kyle.mp3
+  artifactKey: Guid(2fcd535a950ffbf4babc45ab44372ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/5_kyle.mp3 using Guid(2fcd535a950ffbf4babc45ab44372ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb305cbe3eec42ff5eb85fb28226aee4') in 0.173833 seconds 
+  Import took 0.191563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/Resources/9b.mp3
+  artifactKey: Guid(de9e14067e4082846a120c94d5ef0ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9b.mp3 using Guid(de9e14067e4082846a120c94d5ef0ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b10bba9b8899a97b3ec2ddf986f2e8') in 0.183738 seconds 
+  Import took 0.197906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001221 seconds.
+  path: Assets/Resources/4_oro.mp3
+  artifactKey: Guid(406693a50fdbf344a80379df5bbde2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/4_oro.mp3 using Guid(406693a50fdbf344a80379df5bbde2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d1ced0203d4b7346d3257d1006b8c') in 0.154495 seconds 
+  Import took 0.168097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001618 seconds.
+  path: Assets/Resources/8_kyle.mp3
+  artifactKey: Guid(460d1c53397a31545904aa2a4375aef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/8_kyle.mp3 using Guid(460d1c53397a31545904aa2a4375aef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7e95b57b0ef70ffe5b17c20dbd11b7') in 0.162526 seconds 
+  Import took 0.176004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/Resources/6_kyle.mp3
+  artifactKey: Guid(734d7de9b28f1bc40938755e4b8413fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/6_kyle.mp3 using Guid(734d7de9b28f1bc40938755e4b8413fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ce2d5ca2a4da9d145b538010329b20') in 0.168163 seconds 
+  Import took 0.180654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/Resources/9_kyle.mp3
+  artifactKey: Guid(4e5f2d6cd5f8481428f069b48a33bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9_kyle.mp3 using Guid(4e5f2d6cd5f8481428f069b48a33bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e3397182628b0699de035364192352') in 0.158454 seconds 
+  Import took 0.172452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Resources/9b_kyle.mp3
+  artifactKey: Guid(fe939104dd76ee743a089f83f601325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9b_kyle.mp3 using Guid(fe939104dd76ee743a089f83f601325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911b0a03ac0861bd9061cd8b3e95cfb1') in 0.169038 seconds 
+  Import took 0.181201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000819 seconds.
+  path: Assets/Resources/5.mp3
+  artifactKey: Guid(ee46cd4bd6f7a1b40a72323c847da07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/5.mp3 using Guid(ee46cd4bd6f7a1b40a72323c847da07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c2cf4f1504f4a44b4f91d53c8fb6a4') in 0.165510 seconds 
+  Import took 0.178142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/Resources/5_oro.mp3
+  artifactKey: Guid(38677265adbea08479bc810483b37d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/5_oro.mp3 using Guid(38677265adbea08479bc810483b37d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298bb605ef3a2e7d127ed611a5fffa1e') in 0.188599 seconds 
+  Import took 0.203745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001116 seconds.
+  path: Assets/Resources/3_kyle.mp3
+  artifactKey: Guid(38d385f1339febe419ff98e32b7b22a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3_kyle.mp3 using Guid(38d385f1339febe419ff98e32b7b22a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4931a6e2bc8ee7f570c0c9c1840f0ad7') in 0.162717 seconds 
+  Import took 0.175564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Resources/4.mp3
+  artifactKey: Guid(260abb3ccb9a313469367e077d888bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/4.mp3 using Guid(260abb3ccb9a313469367e077d888bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee7153fe5475b354e1ac6b3cf1e639') in 0.183803 seconds 
+  Import took 0.202030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000771 seconds.
+  path: Assets/Resources/7_oro.mp3
+  artifactKey: Guid(24ce87818ff33e14b9af92d83b0418a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/7_oro.mp3 using Guid(24ce87818ff33e14b9af92d83b0418a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e5903b6839f1b44980a52fd2ab8f4d') in 0.199684 seconds 
+  Import took 0.214239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/Resources/6.mp3
+  artifactKey: Guid(e9114a563906abf40a8f7afa70e35587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/6.mp3 using Guid(e9114a563906abf40a8f7afa70e35587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a174caec4bf35c9c565170fbc7319dd2') in 0.215584 seconds 
+  Import took 0.231297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001170 seconds.
+  path: Assets/Resources/2_kyle.mp3
+  artifactKey: Guid(1524a54429da3d146b6ef8209f51640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2_kyle.mp3 using Guid(1524a54429da3d146b6ef8209f51640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd489681a6204b491982d6ebc21d2c75b') in 0.257166 seconds 
+  Import took 0.271701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/Resources/8.mp3
+  artifactKey: Guid(ba0c00df115785142b12e97dcca96273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/8.mp3 using Guid(ba0c00df115785142b12e97dcca96273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849c23c74404a1f2783479883f6e9493') in 0.234152 seconds 
+  Import took 0.254592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/Resources/9_oro.mp3
+  artifactKey: Guid(9d26d411a3d9d9a48b0c2bba41a78b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9_oro.mp3 using Guid(9d26d411a3d9d9a48b0c2bba41a78b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ebe96c19bb95c742d36519e3a5bff4') in 0.229508 seconds 
+  Import took 0.247306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001077 seconds.
+  path: Assets/Resources/4_kyle.mp3
+  artifactKey: Guid(778cb1a70a5057d45a043602c1647cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/4_kyle.mp3 using Guid(778cb1a70a5057d45a043602c1647cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9c1fdd349a79da9e7904d96be466d9') in 0.248547 seconds 
+  Import took 0.267261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Resources/8_oro.mp3
+  artifactKey: Guid(33634920c3ddbc64a8e2631e1ccd5d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/8_oro.mp3 using Guid(33634920c3ddbc64a8e2631e1ccd5d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdcde1f34196a957553ffa51490de5d') in 0.233346 seconds 
+  Import took 0.250506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/Resources/2.mp3
+  artifactKey: Guid(065f142cd155e844896f5aba4c2415be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2.mp3 using Guid(065f142cd155e844896f5aba4c2415be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aeabc3bd2adb8d12b7d719630576ed') in 0.243178 seconds 
+  Import took 0.261018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001224 seconds.
+  path: Assets/Resources/9b_oro.mp3
+  artifactKey: Guid(8c82cebd6e44e7543a0185ec1f45cf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9b_oro.mp3 using Guid(8c82cebd6e44e7543a0185ec1f45cf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35d19a0826c2d233ed85d60c6f53136') in 0.373696 seconds 
+  Import took 0.398915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001829 seconds.
+  path: Assets/Resources/9.mp3
+  artifactKey: Guid(f017c7f8d2c7dd74992cf6d877cc8a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9.mp3 using Guid(f017c7f8d2c7dd74992cf6d877cc8a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94465a82cce2e66d95d4cfd5e997c004') in 0.310584 seconds 
+  Import took 0.390539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001503 seconds.
+  path: Assets/Resources/6_oro.mp3
+  artifactKey: Guid(e8020a8af4e13bb47a65baaea12f55b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/6_oro.mp3 using Guid(e8020a8af4e13bb47a65baaea12f55b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d60d4201b33ac2f56e69746d3099618') in 0.749838 seconds 
+  Import took 0.866262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Resources/1_oro.mp3
+  artifactKey: Guid(31023c3418cef3649a619a3a8aa0b42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/1_oro.mp3 using Guid(31023c3418cef3649a619a3a8aa0b42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f7b1bfd24826500be2aaca126f39a') in 0.969660 seconds 
+  Import took 1.005357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041575 seconds.
+  path: Assets/Resources/7_kyle.mp3
+  artifactKey: Guid(3f574a5266165534c8eef0b8ea3ddc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/7_kyle.mp3 using Guid(3f574a5266165534c8eef0b8ea3ddc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d5cfb31b3950d73896a9e08a47f744') in 0.378581 seconds 
+  Import took 0.403263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001005 seconds.
+  path: Assets/Resources/7.mp3
+  artifactKey: Guid(16aa4ae2fccdcc34abaadc2793ede127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/7.mp3 using Guid(16aa4ae2fccdcc34abaadc2793ede127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019b70c131227b08e8c41b04ff4680d6') in 0.370304 seconds 
+  Import took 0.391346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020434 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91101D20 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F917D9040 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F87821440 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8F438250 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019FB331AB50 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F91CD5020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F911AB0D0 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90D49030 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F923DC890 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8F3ADF70 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8C39A020 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F8D3BC180 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000019F90FD6380 doesn't match image C:\Users\fkock\Documents\Master\Semester 2\Human Robot Interaction\Human-Robot-Interaction\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4694ms)
+		BeginReloadAssembly (606ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (175ms)
+		EndReloadAssembly (3672ms)
+			LoadAssemblies (511ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1550ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (1173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (358ms)
+				ProcessInitializeOnLoadAttributes (746ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 10.226800 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.143900 ms MarkObjects: 9.101900 ms  DeleteObjects: 0.639000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
